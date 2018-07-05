@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+    <mods:titleInfo>
+        <mods:title>General Antonio Lopez de Santa Anna’s Prosthetic Leg</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo type="alternative" >
+            <mods:title>Leg of Santa Anna</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+        <mods:namePart >Bartlett, Charles</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name type="corporate">
+        <mods:namePart >4th Illinois Infantry</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">thief</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:typeOfResource>three dimensional object</mods:typeOfResource>
+    <mods:originInfo>
+        <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
+        <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
+    </mods:originInfo>
+    <mods:language>
+        <mods:languageTerm type="text">English</mods:languageTerm>
+        <mods:languageTerm type="code" authority="iso639-2b">eng</mods:languageTerm>
+    </mods:language>
+    <mods:physicalDescription>
+        <mods:form type="material">cork and leather</mods:form>
+        <mods:extent>48"</mods:extent>
+    </mods:physicalDescription>
+    <mods:abstract xml:lang="en" type="theft summary">General Lopez de Santa Anna's prosthetic leg was captured during the Mexican-American War by Illinois troops (the Fourth Regiment Illinois Volunteers) after the U.S. victory in the Battle of Cerro Gordo in 1847. The prosthetic was briefly sent to the Crystal Palace in London and later shown in Washington, D.C. Despite requests to return the leg to Mexico or Texas, it is now stored under glass at the Illinois National Guard headquarters in Springfield for public viewing.
+    </mods:abstract>
+    <mods:subject>
+        <mods:name type="personal" authority="lcsh">
+            <mods:namePart>Santa Anna, Antonio Lopez de</mods:namePart>
+            <mods:namePart type="date">1794?-18761</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh">Mexican War, 1846-1848--Campaigns--Mexico</mods:topic>
+        <mods:topic authority="lcsh">Cerro Gordo, Battle of, Mexico, 1847</mods:topic>
+        <mods:topic authority="lcsh">artificial legs</mods:topic>
+        <mods:topic authority="lcsh">looting</mods:topic>
+        <mods:geographic authority="lcsh">United States</mods:geographic>
+    </mods:subject>
+    <mods:identifier>CAPER00000011</mods:identifier>
+    <mods:location>
+        <mods:physicalLocation>Illinois State Military Museum</mods:physicalLocation>
+    </mods:location>
+</mods:mods>
