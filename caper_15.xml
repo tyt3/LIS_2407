@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods:mods xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-7.xsd">
+    <mods:titleInfo>
+        <mods:title>Fred Rogers’ Chevy Impala</mods:title>
+    </mods:titleInfo>
+    <mods:titleInfo type="alternative" >
+        <mods:title>Mister Rogers' Chevy Impala</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+        <mods:namePart>Rogers, Fred</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">owner</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:typeOfResource>three dimensional object</mods:typeOfResource>
+    <mods:genre>autombile</mods:genre>
+    <mods:originInfo>
+        <mods:dateCreated encoding="iso8601">1968</mods:dateCreated>
+        <mods:place>
+            <mods:placeTerm>United States</mods:placeTerm>
+        </mods:place>
+    </mods:originInfo>
+    <mods:abstract xml:lang="en">Used 1968 Chevrolet Impala belonging to famous American television personality Fred Rogers; was purportedly stolen in 1990 and returned to the place from which it was taken within 48 hours, after a police report was filed and several local news and media outlets had picked up the story. A note was left on the dashboard of the car, reading, "If we'd known it was yours, we never would have taken it."
+    </mods:abstract>
+    <mods:subject>
+        <mods:name type="personal" authority="lcsh">
+            <mods:namePart>Rogers, Fred</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh">Automobiles</mods:topic>
+        <mods:topic authority="lcsh">Automobile theft</mods:topic>
+        <mods:geographic authority="lcsh">United States</mods:geographic>
+    </mods:subject>
+    <mods:identifier>CAPER00000015</mods:identifier>
+    <mods:location>
+        <mods:physicalLocation type="former">Pittsburgh, PA</mods:physicalLocation>
+        <mods:physicalLocation>unknown</mods:physicalLocation>
+    </mods:location>
+</mods:mods>
