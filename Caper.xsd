@@ -13,16 +13,18 @@
     <xs:import namespace="http://www.vraweb.org/vracore4.htm" schemaLocation="http://www.loc.gov/standards/vracore/vra.xsd"/>
 <!--<xs:import namespace="http://www.vraweb.org/vracore4.htm" schemaLocation="http://www.loc.gov/standards/vracore/vra-strict.xsd"/>-->
     
+    
     <xs:element name="theft">
         <xs:complexType>
             <xs:sequence>
-                <xs:element name="bggId" type="xs:string"/>
-                <xs:element name="price" type="xs:decimal"/>
-                <xs:element name="myRating" type="xs:positiveInteger" />
-                <xs:element name="playerCount" type="xs:string"/>
+                <xs:element name="theftType" type="xs:string" minOccurs="0"/>
+                <xs:element name="value" type="xs:string" minOccurs="0"/>
+                <xs:element name="status" type="xs:string" minOccurs="0"/>
+                <xs:element name="form" type="xs:string" minOccurs="0"/>
+                <xs:element name="class" type="xs:string" minOccurs="0"/>
                 <xs:element ref="caper:modsSection" minOccurs="0"/>
-                <xs:element ref="caper:dcSection" minOccurs="0" />
-                <xs:element ref="caper:vraSection" minOccurs="0" />
+                <xs:element ref="caper:dcSection" minOccurs="0"/>
+                <xs:element ref="caper:vraSection" minOccurs="0"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
@@ -31,20 +33,22 @@
     <xs:element name="modsSection">
         <xs:complexType>
             <xs:sequence>
-                <xs:element ref="mods:mods" />
+                <xs:element ref="mods:mods"/>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    
     
     <xs:element name="dcSection">
         <xs:complexType>
             <xs:sequence>
                 <xs:sequence>
-                    <xs:element ref="dc:any" maxOccurs="unbounded" />
+                    <xs:element ref="dc:any" maxOccurs="unbounded"/>
                 </xs:sequence>
             </xs:sequence>
         </xs:complexType>
     </xs:element>
+    
     
     <xs:element name="vraSection">
         <xs:complexType>
@@ -55,11 +59,6 @@
             </xs:sequence>
         </xs:complexType>
     </xs:element>
-
-
-
-
-
 
 
 </xs:schema>
