@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
     targetNamespace="https://github.com/tyt3/LIS_2407"
-    xmlns:caper="https://github.com/tyt3/LIS_2407" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:cp="https://github.com/tyt3/LIS_2407" xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:vra="http://www.vraweb.org/vracore4.htm" elementFormDefault="qualified">
     
@@ -16,7 +16,7 @@
     <!--<xs:import namespace="http://www.vraweb.org/vracore4.htm" schemaLocation="http://www.loc.gov/standards/vracore/vra-strict.xsd"/>-->
     
     
-    <xs:element name="theft">
+    <xs:element name="caper">
         <xs:complexType>
             <xs:sequence>
                 
