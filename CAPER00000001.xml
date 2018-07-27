@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>piracy</cp:theftType>
+    <cp:value>estimated -4.4 million Australian dollars</cp:value>
+    <cp:status>other</cp:status>
+    <cp:form>music work</cp:form>
+    <cp:class>intellectual property</cp:class>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Kookaburra</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title>Kookaburra sits in the ole gum tree</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Sinclair, Marion</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Author</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="corporate">
+                <mods:namePart>Larrikin Music</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Pubisher</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>"Australia"</mods:placeTerm>
+                </mods:place>
+                <mods:dateCreated encoding="iso8601">1932</mods:dateCreated>
+                <mods:dateModified encoding="iso8601">1981</mods:dateModified>
+                <mods:dateOther encoding="iso8601">2011-03-31</mods:dateOther>
+                <mods:copyrightDate encoding="iso8601">1931</mods:copyrightDate>
+                <mods:publisher>Larrikin Ltd.</mods:publisher>
+            </mods:originInfo>
+            <mods:abstract>Popular Australian nursery rhyme, sung as a round. Subject of a copyright infringement 
+                case in which the main melody was used in the 1980 popular hit song "Down Under" by artist Men at 
+                Work. In a 2010 decision, affirmed in a 2011 appeal, the copyright holder was awarded 5% royalties 
+                dating back to 2002 (approximately 100,000 Australian dollars). Legal fees in the case were estimated 
+                at 4.5 million Australian dollars.</mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:topic>Folk Music, Australia.</mods:topic>
+                <mods:topic>Copyright Infringement.</mods:topic>        
+            </mods:subject>
+            <mods:identifier>CAPER00000001</mods:identifier>
+        </mods:mods>
+    </cp:modsSection>
+    
+    <cp:dcSection>
+        <dcterms:type>musical work</dcterms:type>
+        <dcterms:provenance>Marion Sinclar. Men at Work. Larrikin Music Ltd.</dcterms:provenance>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
+                    refid="971010">Australian</vra:culturalContext>
+            </vra:culturalContextSet>        
+            <vra:dateSet>
+                <vra:display>Composed 1931. Borrowed 1981. Court case settled 2011.</vra:display>
+                <vra:date type="stolen">
+                    <vra:earliestDate>1981</vra:earliestDate>
+                    <vra:latestDate>2011</vra:latestDate>
+                    </vra:date>
+            </vra:dateSet>
+            <vra:materialSet>
+                <vra:material>Ink on paper</vra:material>
+                <vra:material>Ordered Sound</vra:material>
+            </vra:materialSet>
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>
