@@ -57,8 +57,7 @@
 
 <cp:dcSection>
   <dcterms:type>physical object</dcterms:type>
-  <dcterms:provenance>
-    <dcterms:provenanceStatement>Stolen from General Antonio Lopez de Santa Anna by the Fourth Regiment Illinois Volunteers in 1847.</dcterms:provenanceStatement>
+  <dcterms:provenance>Stolen from General Antonio Lopez de Santa Anna by the Fourth Regiment Illinois Volunteers in 1847.
   </dcterms:provenance>
 </cp:dcSection>
 
