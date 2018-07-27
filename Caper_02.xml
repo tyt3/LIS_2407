@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<caper:theft xmlns:caper="https://github.com/tyt3/LIS_2407" 
+<cp:caper xmlns:cp="http://pitt.edu/~tyt3/LIS2407" 
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:mods="http://www.loc.gov/mods/v3" 
-    xmlns:vra="http://www.vraweb.org/vracore4.htm" 
-    xsi:schemaLocation=" https://github.com/tyt3/LIS_2407 
-    https://raw.githubusercontent.com/tyt3/LIS_2407/master/Caper.xsd">
+    xmlns:vra="http://www.vraweb.org/vracore4.htm" xsi:schemaLocation=" 
+    https://pitt.edu/~tyt3/LIS2407 http://pitt.edu/~tyt3/LIS2407/caper.xsd">
     
 <mods:titleInfo>
     <mods:title>Ishtar Gate</mods:title>
