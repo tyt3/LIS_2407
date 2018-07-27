@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="http://pitt.edu/~tyt3/LIS2407" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:dc="http://purl.org/dc/elements/1.1/" 
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3" 
+    xmlns:vra="http://www.vraweb.org/vracore4.htm" xsi:schemaLocation=" 
+    https://pitt.edu/~tyt3/LIS2407 http://pitt.edu/~tyt3/LIS2407/caper.xsd">
+
+    <caper:class>corporate property</caper:class>
+    <caper:class>cultural artifact</caper:class>
+    <caper:class>national property</caper:class>
+    <caper:class>other</caper:class>
+    <caper:status>missing</caper:status>
+    <caper:value>invaluable</caper:value>
+    <caper:theftType>burglary</caper:theftType>
+
+    <mods:titleInfo>
+        <mods:title>Jules Rimet Trophy</mods:title>
+    </mods:titleInfo>
+    <mods:name type="personal">
+        <mods:namePart>Lafleur, Abel</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">Creator</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name type="personal">
+        <mods:namePart>Pickles the Dog</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">Trophy Finder</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo>
+        <mods:dateCreated encoding="iso8601">1929</mods:dateCreated>
+        <mods:dateModified encoding="iso8601">1954</mods:dateModified>
+        <mods:dateModified encoding="iso8601">1983</mods:dateModified>
+    </mods:originInfo>
+    <mods:abstract>Trophy, awarded to the winner of the FIFA World Cup between 1930 and 1970. Consists of gold-plated sterling silver statuette of winged female figure holding above her head a decagonal cup, 
+        depicting the Goddess Nike. Base replaced in 1954 with lapis lazuli base. Originally called "Victory," it was renamed after FIFA president Jules Rimet. Stolen in 1966 and recovered by
+        Pickles the Dog. Stolen again in 1983 and presumed destroyed.
+    </mods:abstract> 
+    <mods:subject authority="lcsh">
+        <mods:topic>Soccer</mods:topic>
+        <mods:topic>Soccer--History</mods:topic>
+        <mods:topic>Soccer in popular Culture</mods:topic>
+    </mods:subject>
+    <mods:identifier>CAPER00000003</mods:identifier>
+    
+</cp:caper>
