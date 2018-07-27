@@ -1,13 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <cp:caper xmlns:cp="http://pitt.edu/~tyt3/LIS2407" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:vra="http://www.vraweb.org/vracore4.htm" xsi:schemaLocation="https://pitt.edu/~tyt3/LIS2407 http://pitt.edu/~tyt3/LIS2407/caper.xsd">
 
-<cp:class>personal property</cp:class>
-<cp:form>prosthetic leg</cp:form>
 <cp:theftType type="factual">looting</cp:theftType>
-<cp:status>stolen</cp:status>
 <cp:value>personal</cp:value>
+<cp:status>stolen</cp:status>
+<cp:form>prosthetic leg</cp:form>
+<cp:class>personal property</cp:class>
 
 <cp:modsSection>
+ <mods:mods>
  <mods:titleInfo>
    <mods:title>General Antonio Lopez de Santa Anna’s Prosthetic Leg</mods:title>
  </mods:titleInfo>
@@ -53,6 +54,7 @@
    </mods:role>
   </mods:name>
   <mods:identifier>CAPER00000011</mods:identifier>
+  <mods:mods>
  </cp:modsSection>
 
 <cp:dcSection>
@@ -62,6 +64,7 @@
 </cp:dcSection>
 
 <cp:vraSection>
+ <vra:work>
   <vra:materialSet>
     <vra:display>cork and leather</vra:display>
     <vra:material type="medium">cork</vra:material>
@@ -92,5 +95,6 @@
  <name type="geographic" vocab="TGN" extent="nation">United States</name>
  </location>
 </locationSet>  
+</vra:work>
 </cp:vraSection>
 </cp:caper>
