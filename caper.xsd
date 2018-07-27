@@ -20,6 +20,18 @@
         <xs:complexType>
             <xs:sequence>
                 
+                <xs:element name="theftClass" minOccurs="0" maxOccurs="unbounded">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="alleged"/>
+                            <xs:enumeration value="factual"/>
+                            <xs:enumeration value="fictional"/>
+                            <xs:enumeration value="theoretical"/>
+                            <xs:enumeration value="other"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
                 <xs:element name="theftType" minOccurs="0" maxOccurs="unbounded">
                     <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -37,6 +49,7 @@
                             <xs:enumeration value="pickpocketing"/>
                             <xs:enumeration value="pillaging"/>
                             <xs:enumeration value="piracy"/>
+                            <xs:enumeration value="plundering"/>
                             <xs:enumeration value="robbery"/>
                             <xs:enumeration value="smuggling"/>
                             <xs:enumeration value="tax evasion"/>
