@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cp:caper xmlns:cp="http://pitt.edu/~tyt3/LIS2407" 
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:dcterms="http://purl.org/dc/terms/"
@@ -7,13 +7,13 @@
     xmlns:vra="http://www.vraweb.org/vracore4.htm" xsi:schemaLocation=" 
     https://pitt.edu/~tyt3/LIS2407 http://pitt.edu/~tyt3/LIS2407/caper.xsd">
   
-<caper:class>cultural artifact</caper:class>
-<caper:form>PhysicalObject</caper:form>
-<caper:theftType>cultural appropriation</caper:theftType>
-<caper:status>other</caper:status>
-<caper:value>invaluable</caper:value>
+<cp:class>cultural artifact</cp:class>
+<cp:form>PhysicalObject</cp:form>
+<cp:theftType>cultural appropriation</cp:theftType>
+<cp:status>other</cp:status>
+<cp:value>invaluable</cp:value>
     
-
+<cp:modsSection>
 <mods:titleInfo>
     <mods:title>Ishtar Gate</mods:title>
 </mods:titleInfo>
@@ -58,7 +58,10 @@
 <mods:location>
     <mods:physicalLocation>Pergamon Museum, Berlin, Germany</mods:physicalLocation>
 </mods:location>
+</cp:modsSection>
     
+<cp:vraSection>
 <vra:measurement>14 meters high x 30 meters wide</vra:measurement>
+</cp:vraSection>
 
 </cp:caper>

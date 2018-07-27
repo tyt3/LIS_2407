@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cp:caper xmlns:cp="http://pitt.edu/~tyt3/LIS2407" 
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xmlns:dc="http://purl.org/dc/elements/1.1/" 
     xmlns:dcterms="http://purl.org/dc/terms/"
@@ -11,7 +11,8 @@
     <caper:status>other</caper:status>
     <caper:value>invaluable</caper:value>
     <caper:theftType>abduction</caper:theftType>
-    
+ 
+<cp:modsSection> 
     <mods:titleInfo>
         <mods:title>Children of the Sixties Scoop</mods:title>
     </mods:titleInfo>
@@ -51,13 +52,17 @@
         <mods:location>
             <mods:physicalLocation>Canada</mods:physicalLocation>
         </mods:location>
-    
-    <dcterms:type>collection</dcterms:type>
-    
+</cp:modsSection>
+
+<dcSection>
+<dcterms:type>collection</dcterms:type>
+</dcSection>
+
+<vraSection>
     <vra:culturalContext>991047</vra:culturalContext>
     <vra:culturalContext>991010</vra:culturalContext>
     <vraLculturalContext>992160</vraLculturalContext>
     <vraLculturalContext>900010</vraLculturalContext>
-    
+</vraSection>    
     
 </cp:caper>
