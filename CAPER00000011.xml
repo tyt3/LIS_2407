@@ -7,53 +7,53 @@
 <cp:status>stolen</cp:status>
 <cp:value>personal</cp:value>
 
-  <cp:modsSection>
-    <mods:titleInfo>
-      <mods:title>General Antonio Lopez de Santa Anna’s Prosthetic Leg</mods:title>
-    </mods:titleInfo>
-    <mods:alternativeTitle>
-      <mods:title>Leg of Santa Anna</mods:title>
-    </mods:alternativeTitle>
-    <mods:name>
-      <mods:namePart>Bartlett, Charles</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text">creator</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:originInfo>
-      <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
-      <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
-      <mods:dateOther type="stolen">1847</mods:dateOther>
-      <mods:place>
-        <mods:placeTerm>United States</mods:placeTerm>
-      </mods:place>
-    </mods:originInfo>
-    <mods:abstract>Most prominent prosthetic created for General de Santa Anna after much of his leg was amputated in 1838 as a result of a French cannon shattering his ankle in Veracruz; was captured during the Mexican-American War by Illinois troops (the Fourth Regiment Illinois Volunteers) after the U.S. victory in the Battle of Cerro Gordo in 1847. The prosthetic was briefly sent to the Crystal Palace in London and later shown in Washington, D.C. Despite requests to return the leg to Mexico or Texas, it is now stored under glass at the Illinois National Guard headquarters in Springfield for public viewing.</mods:abstract>
-    <mods:subject>
-      <mods:name type="personal" authority="lcsh">
-        <mods:namePart>Santa Anna, Antonio Lopez de</mods:namePart>
-        <mods:namePart type="date">1794?-18761</mods:namePart>
-      </mods:name>
-      <mods:topic authority="lcsh">Mexican War, 1846-1848--Campaigns--Mexico</mods:topic>
-      <mods:topic authority="lcsh">Cerro Gordo, Battle of, Mexico, 1847</mods:topic>
-      <mods:topic authority="lcsh">Artificial legs</mods:topic>
-      <mods:geographic authority="lcsh">United States</mods:geographic>
-    </mods:subject>
-    <mods:name authority="naf" type="personal">
-      <mods:namePart>Santa Anna, Antonio López de</mods:namePart>
-      <mods:namePart type="date">1794?-1876</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text">owner</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:name type="corporate">
-      <mods:namePart>4th Illinois Infantry</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text">thief</mods:roleTerm>
-      </mods:role>
-    </mods:name>
-    <mods:identifier>CAPER00000011</mods:identifier>
-</cp:modsSection>
+<cp:modsSection>
+ <mods:titleInfo>
+   <mods:title>General Antonio Lopez de Santa Anna’s Prosthetic Leg</mods:title>
+ </mods:titleInfo>
+ <mods:titleInfo type="alternative">
+  <mods:title>Leg of Santa Anna</mods:title>
+ </mods:titleInfo>
+ <mods:name>
+  <mods:namePart>Bartlett, Charles</mods:namePart>
+  <mods:role>
+   <mods:roleTerm type="text">creator</mods:roleTerm>
+  </mods:role>
+ </mods:name>
+ <mods:originInfo>
+  <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
+  <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
+  <mods:dateOther type="stolen">1847</mods:dateOther>
+  <mods:place>
+   <mods:placeTerm>United States</mods:placeTerm>
+  </mods:place>
+ </mods:originInfo>
+ <mods:abstract>Most prominent prosthetic created for General de Santa Anna after much of his leg was amputated in 1838 as a result of a French cannon shattering his ankle in Veracruz; was captured during the Mexican-American War by Illinois troops (the Fourth Regiment Illinois Volunteers) after the U.S. victory in the Battle of Cerro Gordo in 1847. The prosthetic was briefly sent to the Crystal Palace in London and later shown in Washington, D.C. Despite requests to return the leg to Mexico or Texas, it is now stored under glass at the Illinois National Guard headquarters in Springfield for public viewing.</mods:abstract>
+ <mods:subject>
+  <mods:name type="personal" authority="lcsh">
+   <mods:namePart>Santa Anna, Antonio Lopez de</mods:namePart>
+    <mods:namePart type="date">1794?-18761</mods:namePart>
+   </mods:name>
+   <mods:topic authority="lcsh">Mexican War, 1846-1848--Campaigns--Mexico</mods:topic>
+   <mods:topic authority="lcsh">Cerro Gordo, Battle of, Mexico, 1847</mods:topic>
+   <mods:topic authority="lcsh">Artificial legs</mods:topic>
+   <mods:geographic authority="lcsh">United States</mods:geographic>
+   </mods:subject>
+   <mods:name authority="naf" type="personal">
+    <mods:namePart>Santa Anna, Antonio López de</mods:namePart>
+    <mods:namePart type="date">1794?-1876</mods:namePart>
+    <mods:role>
+     <mods:roleTerm type="text">owner</mods:roleTerm>
+    </mods:role>
+   </mods:name>
+  <mods:name type="corporate">
+   <mods:namePart>4th Illinois Infantry</mods:namePart>
+   <mods:role>
+    <mods:roleTerm type="text">thief</mods:roleTerm>
+   </mods:role>
+  </mods:name>
+  <mods:identifier>CAPER00000011</mods:identifier>
+ </cp:modsSection>
 
 <cp:dcSection>
   <dcterms:type>physical object</dcterms:type>
