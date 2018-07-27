@@ -62,7 +62,11 @@
 </cp:dcSection>
 
 <cp:vraSection>
-  <vra:material type="medium">cork and leather</vra:material>
+  <vra:materialSet>
+    <vra:display>cork and leather</vra:display>
+    <vra:material type="medium">cork</vra:material>
+    <vra:material type="medium">leather</vra:material>
+  </vra:materialSet>
   <vra:measurementSet>
     <vra:display>48 in</vra:display>
     <vra:measurements type="length" unit="in">48</vra:measurements>
