@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="https://github.com/tyt3/LIS_2407"
+    xmlns:cp="https://github.com/tyt3/LIS_2407" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/" xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm" elementFormDefault="qualified">
+    
+    <xs:import namespace="http://purl.org/dc/elements/1.1/"
+        schemaLocation="http://dublincore.org/schemas/xmls/qdc/dc.xsd"/>
+    <xs:import namespace="http://purl.org/dc/terms/"
+        schemaLocation="http://dublincore.org/schemas/xmls/qdc/dcterms.xsd"/>
+    <xs:import namespace="http://www.loc.gov/mods/v3"
+        schemaLocation="http://www.loc.gov/standards/mods/v3/mods-3-7.xsd"/>
+    <xs:import namespace="http://www.vraweb.org/vracore4.htm"
+        schemaLocation="http://www.loc.gov/standards/vracore/vra.xsd"/>
+    <!--<xs:import namespace="http://www.vraweb.org/vracore4.htm" schemaLocation="http://www.loc.gov/standards/vracore/vra-strict.xsd"/>-->
+    
+    
+    <xs:element name="caper">
+        <xs:complexType>
+            <xs:sequence>
+                
+                <xs:element name="theftType" minOccurs="0" maxOccurs="unbounded">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="abduction"/>
+                            <xs:enumeration value="auto theft"/>
+                            <xs:enumeration value="burglary"/>
+                            <xs:enumeration value="cultural appropriation"/>
+                            <xs:enumeration value="embezzlement"/>
+                            <xs:enumeration value="extortion"/>
+                            <xs:enumeration value="fraud"/>
+                            <xs:enumeration value="identity theft"/>
+                            <xs:enumeration value="larceny"/>
+                            <xs:enumeration value="looting"/>
+                            <xs:enumeration value="other"/>
+                            <xs:enumeration value="pickpocketing"/>
+                            <xs:enumeration value="pillaging"/>
+                            <xs:enumeration value="piracy"/>
+                            <xs:enumeration value="robbery"/>
+                            <xs:enumeration value="smuggling"/>
+                            <xs:enumeration value="tax evasion"/>
+                            <xs:enumeration value="theft"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
+                <xs:element name="value" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+                
+                <xs:element name="status" minOccurs="0">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="stolen"/>
+                            <xs:enumeration value="recovered"/>
+                            <xs:enumeration value="missing"/>
+                            <xs:enumeration value="other"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
+                <xs:element name="form" type="xs:string" minOccurs="0"/>
+                
+                <xs:element name="class" minOccurs="0" maxOccurs="unbounded">
+                    <xs:simpleType>
+                        <xs:restriction base="xs:string">
+                            <xs:enumeration value="corporate property"/>
+                            <xs:enumeration value="cultural artifact"/>
+                            <xs:enumeration value="data"/>
+                            <xs:enumeration value="identity"/>
+                            <xs:enumeration value="intellectual property"/>
+                            <xs:enumeration value="music"/>
+                            <xs:enumeration value="national property"/>
+                            <xs:enumeration value="other"/>
+                            <xs:enumeration value="personal property"/>
+                            <xs:enumeration value="sentient being"/>
+                            <xs:enumeration value="sociopolitical right"/>
+                            <xs:enumeration value="visual art"/>
+                        </xs:restriction>
+                    </xs:simpleType>
+                </xs:element>
+                
+                <xs:element ref="cp:modsSection" minOccurs="0"/>
+                <xs:element ref="cp:dcSection" minOccurs="0"/>
+                <xs:element ref="cp:vraSection" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+    <xs:element name="modsSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="mods:mods"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="dcSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:sequence>
+                    <xs:element ref="dc:any" maxOccurs="unbounded"/>
+                </xs:sequence>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    <xs:element name="vraSection">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element ref="vra:work" minOccurs="0"/>
+                <xs:element ref="vra:image" minOccurs="0"/>
+                <xs:element ref="vra:collection" minOccurs="0"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+</xs:schema>
+
