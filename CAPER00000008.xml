@@ -78,8 +78,8 @@
             </vra:materialSet>
             <vra:measurementsSet>
                 <vra:display>36 in × 28.9 in</vra:display>
-                <vra:measurements type="side" unit="inch">36</vra:measurements>
-                <vra:measurements type="side" unit="inch">28.9</vra:measurements>
+                <vra:measurements type="size" unit="in">36</vra:measurements>
+                <vra:measurements type="size" unit="in">28.9</vra:measurements>
             </vra:measurementsSet>
         </vra:work>
     </cp:vraSection>
