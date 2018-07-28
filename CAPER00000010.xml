@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>theft</cp:theftType>
+    <cp:value>about $ 350 million</cp:value>
+    <cp:status>recovered</cp:status>
+    <cp:form>physical object</cp:form>
+    <cp:class>personal property</cp:class>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Hope Diamond</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title >The King's Jewel</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title >France's Blue</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title >the Tavernier Blue</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Sieur Pitau</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Louis XIV</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>John Francillon</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Thomas Hope</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Adolf Weil</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Simon Frankel</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Salomon Habib</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Pierre Cartier</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Evalyn Walsh McLean</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Harry Winston</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="corporate">
+                <mods:namePart>Smithsonian Institution National Museum of Natural History</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>France</mods:placeTerm>
+                </mods:place>
+                <mods:dateCreated encoding="iso8601">1678</mods:dateCreated>
+            </mods:originInfo>
+            <mods:abstract>The largest blue diamond in the world, pear-shaped and weighing 45.52 carats. According to legend, it is cursed and will bring misfortune to its owner. It was stolen in 1792 during the French Revolution by six thieves, and recovered 20 years later. The diamond has since belonged to several owners. Currently, it is displayed in the Smithsonian Museum of Natural History in Washington, D.C.</mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:topic>Hope diamond</mods:topic>       
+            </mods:subject>
+            <mods:identifier>CAPER00000010</mods:identifier>
+        </mods:mods>
+    </cp:modsSection>
+    
+    <cp:dcSection>
+        <dcterms:type>physical object</dcterms:type>
+        <dcterms:provenance>In 1678, Louis XIV commissioned the court jeweller to cut and create it. 
+            On September 11, 1792, it was stolen and then recovered by John Francillon in London.
+            It was reported to belong to Thomas Hope in England.
+            American Simon Frankel bought it from Adolf Weil and was again sold to Salomon Habib before it belongs to Pierre Cartier.
+            In 1911, it was sold to Evalyn Walsh McLean.
+            In 1949, it was bought by Harry Winston and donated it to NMNH in 1958.
+        </dcterms:provenance>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">France</vra:culturalContext>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">England</vra:culturalContext>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">United States</vra:culturalContext>
+            </vra:culturalContextSet>        
+            <vra:dateSet>
+                <vra:display>Stolen in 1792-9-11, appeared in 1812 in England. Finally it was displayed in 1958-11-7.</vra:display>
+                <vra:date type="stolen">
+                    <vra:earliestDate>1792-9-11</vra:earliestDate>
+                    <vra:latestDate>1812</vra:latestDate>
+                </vra:date>
+                <vra:date type="other">
+                    <vra:earliestDate>1812</vra:earliestDate>
+                    <vra:latestDate>1958-11-7</vra:latestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:display>France. London, England. Smithsonian Institution National Museum of Natural History, United States.</vra:display>
+                <vra:location type="geographic">
+                    <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="city">London</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="nation">England</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="corporate">Smithsonian Institution National Museum of Natural History</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+            <vra:materialSet>
+                <vra:material>dimond</vra:material>
+            </vra:materialSet>
+            <vra:measurementsSet>
+                <vra:display>45.52 carat</vra:display>
+                <vra:measurements type="size" unit="in">1 × 7/8  × 15/32</vra:measurements>
+                <vra:measurements type="weight" unit="carat">45.52</vra:measurements>
+                <vra:measurements type="color">blue</vra:measurements>
+            </vra:measurementsSet>
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>
