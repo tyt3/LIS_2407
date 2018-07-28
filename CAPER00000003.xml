@@ -7,6 +7,7 @@
     xmlns:vra="http://www.vraweb.org/vracore4.htm"
     xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper-2018.xsd">
         
+    <cp:theftClass>factual</cp:theftClass>
     <cp:theftType>burglary</cp:theftType>
     <cp:value>invaluable</cp:value>
     <cp:status>missing</cp:status>
