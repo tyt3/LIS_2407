@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>abduction</cp:theftType>
+    <cp:theftType>cultural appropriation</cp:theftType>
+    <cp:value>invaluable</cp:value>
+    <cp:status>other</cp:status>
+    <cp:class>sentient being</cp:class>
+ 
+<cp:modsSection> 
+    <mods:mods>
+    <mods:titleInfo>
+        <mods:title>Children of the Sixties Scoop</mods:title>
+    </mods:titleInfo>
+    <mods:name type="corporate">
+        <mods:namePart>First Nations Children</mods:namePart>
+        <mods:namePart>Métis Children</mods:namePart>
+        <mods:namePart>Inuit Children</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">Abductees</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:name type="corporate">
+        <mods:namePart>Canadian Child Welfare System</mods:namePart>
+        <mods:role>
+            <mods:roleTerm type="text">Abductors</mods:roleTerm>
+        </mods:role>
+    </mods:name>
+    <mods:originInfo>
+        <mods:place>
+            <mods:placeTerm>Canada</mods:placeTerm>
+        </mods:place>
+        <mods:dateOther qualifier="approximate">ca. 1960/ca.1980</mods:dateOther>       
+    </mods:originInfo>
+    <mods:abstract>
+        Between the late 1950s and early 1980s, approximately 20,000 Indigenous, Métis, and Inuit
+        children accross Canada were taken from their families by Child Welfare Services 
+        to be put into foster care or adopted by White families. The practice was intentional
+        and systematic. The resulting disconnect of the children from their heritage has 
+        been called "cultural genocide."
+    </mods:abstract>
+    <mods:subject authority="lcsh">
+        <mods:topic>Child welfare--Canada</mods:topic>
+        <mods:topic>Indian children--Services for--Canada</mods:topic>
+        <mods:topic>Indian children--Canada--Social conditions</mods:topic>
+        </mods:subject>
+        <mods:identifier>CAPER00000005</mods:identifier>
+        <mods:location>
+            <mods:physicalLocation>Canada</mods:physicalLocation>
+        </mods:location>
+    </mods:mods>
+</cp:modsSection>
+
+    <cp:dcSection>
+        <dcterms:type>persons</dcterms:type>
+        <dcterms:provenance>Tribes of the Indigenous peoples of North America, First Nations Peoples. Federal Government of Canada.</dcterms:provenance>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
+                    refid="994810">First Nations</vra:culturalContext>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
+                    refid="991020">Colonial Canadian</vra:culturalContext>
+            </vra:culturalContextSet>   
+            <vra:dateSet>
+                <vra:display>Between late 1950s and early 1980s</vra:display>
+                <vra:date type="stolen">
+                    <vra:earliestDate>1955</vra:earliestDate>
+                    <vra:latestDate>1985</vra:latestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:display>Canada.</vra:display>
+                <vra:location type="geographic">
+                    <vra:name type="geographic" vocab="TGN" refid="7005685" extent="country">Canada</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>
