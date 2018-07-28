@@ -77,7 +77,6 @@
     <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">American</vra:culturalContext>
   </vra:culturalContextSet>
   <vra:dateSet>
-    <vra:display>stolen in 1838</vra:display>
     <vra:date type="stolen">
       <vra:earliestDate>1838</vra:earliestDate>
       <vra:latestDate>1838</vra:latestDate>
