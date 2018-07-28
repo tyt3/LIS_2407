@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>theft</cp:theftType>
+    <cp:value>€ 1,000,000</cp:value>
+    <cp:status>stolen</cp:status>
+    <cp:form>physical object</cp:form>
+    <cp:class>cultural artifact</cp:class>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Crown of the Virgin of Fourviére</mods:title>
+            </mods:titleInfo>
+            <mods:name type="corporate">
+                <mods:namePart>Museum of Religious Art of Fourvière</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">owner</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>Museum of Religious Art of Fourvière, Lyon, France</mods:placeTerm>
+                </mods:place>
+                <mods:dateCreated encoding="iso8601">1899</mods:dateCreated>
+            </mods:originInfo>
+            <mods:abstract>The crown consists of 1791 precious stones and worth about one million euros. It was chiseled in 1899 as a request of families of Lyon to thank Our Lady saving the city from the Prussian invasion and soldiers who survived the war in 1870.</mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:topic>Jewels, Crown</mods:topic>     
+            </mods:subject>
+            <mods:identifier>CAPER00000006</mods:identifier>
+            <mods:location>
+                <mods:physicalLocation>Museum of Religious Art of Fourvière, Lyon, France</mods:physicalLocation>
+            </mods:location>
+        </mods:mods>
+    </cp:modsSection>
+    
+    <cp:dcSection>
+        <dcterms:type>physical object</dcterms:type>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" 
+                    href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">France</vra:culturalContext>
+            </vra:culturalContextSet>
+            <vra:dateSet>
+                <vra:display>stolen on May 13, 2017</vra:display>
+                <vra:date type="stolen">
+                    <vra:earliestDate>2017-05-13</vra:earliestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:display>Museum of Religious Art of Fourvière, Lyon, France</vra:display>
+                <vra:location type="repository">
+                    <vra:name type="corporate">Museum of Religious Art of Fourvière</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="city">Lyon</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+            <vra:materialSet>
+                <vra:display>precious stones and pearls</vra:display>
+                <vra:material type="medium">precious stones</vra:material>
+                <vra:material type="medium">pearls</vra:material>
+            </vra:materialSet>
+            <vra:measurementsSet>
+                <vra:display>14 meters high by 30 meters wide</vra:display>
+                <vra:measurements type="height" unit="m">14</vra:measurements>
+                <vra:measurements type="width" unit="m">30</vra:measurements>
+            </vra:measurementsSet>
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>

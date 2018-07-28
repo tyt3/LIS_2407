@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>theft</cp:theftType>
+    <cp:value>invaluable</cp:value>
+    <cp:status>recovered</cp:status>
+    <cp:form>physical object</cp:form>
+    <cp:class>visual art</cp:class>
+    <cp:class>cultural artifact</cp:class>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Der Schrei der Natur(1893)</mods:title>
+                <mods:title>The Scream(1893)</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Edvard Munch</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>Oslo's National Gallery，Oslo, Norway</mods:placeTerm>
+                </mods:place>
+                <mods:dateCreated encoding="iso8601">1893</mods:dateCreated>
+                <mods:dateOther encoding="iso8601" type="stolen">1994-02</mods:dateOther>
+                <mods:dateOther encoding="iso8601" type="recovered">1994-05</mods:dateOther>
+            </mods:originInfo>
+            <mods:abstract>Popularly known as "The scream", Munch's "Der Schrei der Natur" is a one of the most famous works of Expressionism. It is also known for its frequency of having been stolen. The old version (1893) was taken from Oslo’s National Gallery in February, 1994 and recovered by police in May, 1994.</mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:topic>Expressionism (Art)</mods:topic>        
+            </mods:subject>
+            <mods:identifier>CAPER00000008</mods:identifier>
+            <mods:relatedItem>The scream(1910)</mods:relatedItem>
+        </mods:mods>
+    </cp:modsSection>
+    
+    <cp:dcSection>
+        <dcterms:type>physical object</dcterms:type>
+        <dcterms:provenance>It was stolen from Oslo's National Gallery in 1994 and returned in 1995.
+        </dcterms:provenance>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">Norway</vra:culturalContext>
+            </vra:culturalContextSet>        
+            <vra:dateSet>
+                <vra:display>Stolen in 1994 and return in 1995</vra:display>
+                <vra:date type="stolen">
+                    <vra:earliestDate>1994</vra:earliestDate>
+                    <vra:latestDate>1995</vra:latestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:display>Oslo's National Gallery, Oslo, Norway</vra:display>
+                <vra:location type="geographic">
+                    <vra:name type="corporate">Oslo's National Gallery</vra:name>
+                    <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Oslo</vra:name>
+                    <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">Norway</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+            <vra:materialSet>
+                <vra:display>Egg Tempera</vra:display>
+                <vra:material>egg yolk</vra:material>
+                <vra:material>colored pigments</vra:material>
+            </vra:materialSet>
+            <vra:measurementsSet>
+                <vra:display>36 in × 28.9 in</vra:display>
+                <vra:measurements type="side" unit="inch">36</vra:measurements>
+                <vra:measurements type="side" unit="inch">28.9</vra:measurements>
+            </vra:measurementsSet>
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>
+

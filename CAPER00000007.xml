@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>theft</cp:theftType>
+    <cp:value>invaluable</cp:value>
+    <cp:status>recovered</cp:status>
+    <cp:form>physical object</cp:form>
+    <cp:class>visual art</cp:class>
+    <cp:class>cultural artifact</cp:class>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Mona Lisa</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Leonardo da Vinci</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>Louvre, Paris, France</mods:placeTerm>
+                </mods:place>
+                <mods:dateCreated encoding="iso8601">1503</mods:dateCreated>
+                <mods:dateOther encoding="iso8601" type="stolen">1911</mods:dateOther>
+                <mods:dateOther encoding="iso8601" type="recovered">1913</mods:dateOther>
+            </mods:originInfo>
+            <mods:abstract>Mona Lisa is a half-length portrait painting by the Italian Renaissance artist Leonardo da Vinci that has been described as "the best known, the most visited, the most written about, the most sung about, the most parodied work of art in the world". It is also one of the most valuable paintings in the world. On 21 August 1911, the paiting was stolen from the Louvre. In 1913 the thief was discovered attempting to sell the painting. The painting was returned to the Louvre, where it resided today.</mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:topic>Portrait painting, Renaissance</mods:topic>        
+            </mods:subject>
+            <mods:identifier>CAPER00000007</mods:identifier>
+            <mods:location>
+                <mods:physicalLocation>Louvre, Paris, France</mods:physicalLocation>
+            </mods:location>
+        </mods:mods>
+    </cp:modsSection>
+    
+    <cp:dcSection>
+        <dcterms:type>physical object</dcterms:type>
+        <dcterms:provenance>Stolen from Louvre and return afterwards.</dcterms:provenance>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" 
+                    href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">France</vra:culturalContext>
+            </vra:culturalContextSet>
+            <vra:dateSet>
+                <vra:display>Stolen suring 1911 and 1913.</vra:display>
+                <vra:date>
+                    <vra:earliestDate>1911</vra:earliestDate>
+                    <vra:latestDate>1913</vra:latestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:display>Louvre, Paris, France</vra:display>
+                <vra:location type="repository">
+                    <vra:name type="corporate">Louvre</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="city">Paris</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+            <vra:materialSet>
+                <vra:display>wood with oil on poplar panel</vra:display>
+                <vra:material type="medium">wood</vra:material>
+                <vra:material type="medium">oil on poplar panel</vra:material>
+            </vra:materialSet>
+            <vra:measurementsSet>
+                <vra:display>30 in × 21 in</vra:display>
+                <vra:measurements type="side" unit="inch">30</vra:measurements>
+                <vra:measurements type="side" unit="inch">21</vra:measurements>
+            </vra:measurementsSet>
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>
