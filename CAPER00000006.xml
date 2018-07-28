@@ -70,11 +70,6 @@
                 <vra:material type="medium">precious stones</vra:material>
                 <vra:material type="medium">pearls</vra:material>
             </vra:materialSet>
-            <vra:measurementsSet>
-                <vra:display>14 meters high by 30 meters wide</vra:display>
-                <vra:measurements type="height" unit="m">14</vra:measurements>
-                <vra:measurements type="width" unit="m">30</vra:measurements>
-            </vra:measurementsSet>
         </vra:work>
     </cp:vraSection>
     
