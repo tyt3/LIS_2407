@@ -77,8 +77,8 @@
             </vra:materialSet>
             <vra:measurementsSet>
                 <vra:display>30 in × 21 in</vra:display>
-                <vra:measurements type="side" unit="inch">30</vra:measurements>
-                <vra:measurements type="side" unit="inch">21</vra:measurements>
+                <vra:measurements type="size" unit="in">30</vra:measurements>
+                <vra:measurements type="size" unit="in">21</vra:measurements>
             </vra:measurementsSet>
         </vra:work>
     </cp:vraSection>
