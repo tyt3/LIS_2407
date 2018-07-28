@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/">
+    
+    <dc:title>The Gibson ex-Huberman Stradivarius (1713)</dc:title>
+    <dc:creator>Stradivari, Antonio of Cremona</dc:creator>
+    <dc:date type="created">1713</dc:date>
+    <dc:type>Musical Instrument, Violin</dc:type>
+    <dc:description>Stradivarius Violin, twice stolen from Branislaw Huberman, first for short time, then for 51 years. Recovered after deathbed confession by Julian Altman who bequeathed it to his wife, who received a finder's fee of 263,000 dollars. Purchased for four million dollars by Joshua Bell in 2002.</dc:description>
+    <dc:coverage>Italian</dc:coverage>
+    <dc:coverage>Viennese</dc:coverage>
+    <dc:subject authority="lcsh">Musical Instruments, Violin</dc:subject>
+    <dc:subject authority="lcsh">Art Object Theft</dc:subject>
+    <dc:rights>Joshua Bell</dc:rights>
+    <dc:date xsi:type="dcterms:W3CDTF" type="stolen">1936</dc:date>
+    <dc:date xsi:type="dcterms:W3CDTF" type="recovered">1985</dc:date>
+    <dc:identifier>CAPER00000002</dc:identifier>
+    <dcterms:provenance>Branislaw Huberman</dcterms:provenance>
+    <dcterms:provenance>Julian Altman</dcterms:provenance>
+    <dcterms:provenance>Marcelle Hall</dcterms:provenance>
+    <dcterms:provenance>Norbert Brainin</dcterms:provenance>
+    <dcterms:provenance>Joshua Bell</dcterms:provenance>
+    
+</metadata>
+
