@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+    
+    <cp:theftType>theft</cp:theftType>
+    <cp:value>invaluable</cp:value>
+    <cp:status>stolen</cp:status>
+    <cp:form>physical object</cp:form>
+    <cp:class>cultural artifact</cp:class>
+    <cp:class>national property</cp:class>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Thumb of a Terracotta Warrior</mods:title>
+            </mods:titleInfo>
+            <mods:name>
+                <mods:namePart>Royal craftsman of Emperor Qin</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:dateCreated encoding="iso8601">-210-209</mods:dateCreated>
+                <mods:dateOther type="stolen">2018-01-08</mods:dateOther>
+                <mods:place>
+                    <mods:placeTerm>China. Franklin Institute in Philadelphia, United States</mods:placeTerm>
+                </mods:place>
+            </mods:originInfo>
+            <mods:abstract>The warrior statues date back to 209 B.C., when the Qin Dynasty ruled China. The life-size statues were constructed to guard the tomb of China's first emperor, Qin Shi Huang.The ancient statue is valued at $4.5 million and considered a "priceless part of China's cultural heritage." It was on display at Philadelphia's Franklin Institute when the vandalism took place.</mods:abstract>
+            <mods:subject>
+                <mods:name type="personal" authority="lcsh">
+                    <mods:namePart>First Empror in China</mods:namePart>
+                </mods:name>
+                <mods:topic authority="lcsh">Funeral decorations</mods:topic>
+            </mods:subject>
+            <mods:identifier>CAPER00000009</mods:identifier>
+            </mods:mods>
+    </cp:modsSection>
+    
+    <cp:dcSection>
+        <dcterms:type>physical object</dcterms:type>
+        <dcterms:provenance>Display in Franklin Institute in Philadelphia and one finger of the warrior was stolen.</dcterms:provenance>
+    </cp:dcSection>
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">China</vra:culturalContext>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">Philadelphia, United States</vra:culturalContext>
+            </vra:culturalContextSet>        
+            <vra:dateSet>
+                <vra:display>Stolen in 2018</vra:display>
+                <vra:date type="stolen">
+                    <vra:earliestDate>2018-01-08</vra:earliestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:display>Franklin Institute, Philadelphia, United States</vra:display>
+                <vra:location type="geographic">
+                    <vra:name type="corporate">Franklin Institute</vra:name>
+                    <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Philadelphia</vra:name>
+                    <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">United States</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+            <vra:materialSet>
+                <vra:display>Pottery clay</vra:display>
+                <vra:material>Pottery clay</vra:material>
+            </vra:materialSet>
+        </vra:work>
+    </cp:vraSection>
+    
+</cp:caper>
