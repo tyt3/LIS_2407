@@ -18,7 +18,9 @@
         <mods:mods>
             <mods:titleInfo>
                 <mods:title>Der Schrei der Natur(1893)</mods:title>
-                <mods:title>The Scream(1893)</mods:title>
+            </mods:titleInfo>
+            <mods:titleInfo type="alternative">
+                <mods:title >The Scream(1893)</mods:title>
             </mods:titleInfo>
             <mods:name type="personal">
                 <mods:namePart>Edvard Munch</mods:namePart>
