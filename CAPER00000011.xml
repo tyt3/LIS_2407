@@ -31,7 +31,6 @@
     <mods:originInfo>
       <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
       <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
-      <mods:dateOther type="stolen">1847</mods:dateOther>
       <mods:place>
         <mods:placeTerm>United States</mods:placeTerm>
       </mods:place>
@@ -78,8 +77,8 @@
   </vra:culturalContextSet>
   <vra:dateSet>
     <vra:date type="stolen">
-      <vra:earliestDate>1838</vra:earliestDate>
-      <vra:latestDate>1838</vra:latestDate>
+      <vra:earliestDate>1847</vra:earliestDate>
+      <vra:latestDate>1847</vra:latestDate>
     </vra:date>
   </vra:dateSet>
   <vra:locationSet>
