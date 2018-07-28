@@ -54,8 +54,8 @@
         <mods:roleTerm type="text">owner</mods:roleTerm>
       </mods:role>
     </mods:name>
-    <mods:name type="corporate">
-      <mods:namePart>4th Illinois Infantry</mods:namePart>
+    <mods:name authority="naf" type="corporate">
+      <mods:namePart>United States. Army. Illinois Infantry Regiment, 4th (1898-1899)</mods:namePart>
       <mods:role>
         <mods:roleTerm type="text">thief</mods:roleTerm>
       </mods:role>
