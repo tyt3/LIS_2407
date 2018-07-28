@@ -24,6 +24,12 @@
                     <mods:roleTerm type="text">owner</mods:roleTerm>
                 </mods:role>
             </mods:name>
+            <mods:name type="other">
+                <mods:namePart>Family of Lyon</mods:namePart>
+            <mods:role>
+                    <mods:roleTerm type="text">owner</mods:roleTerm>
+            </mods:role>
+            </mods:name>
             <mods:originInfo>
                 <mods:place>
                     <mods:placeTerm>Museum of Religious Art of Fourvière, Lyon, France</mods:placeTerm>
