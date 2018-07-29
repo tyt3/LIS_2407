@@ -47,7 +47,7 @@
     
     <cp:dcSection>
         <dcterms:type>physical object</dcterms:type>
-        <dcterms:provenance>Stolen from Louvre and return afterwards.</dcterms:provenance>
+        <dcterms:provenance>Stolen from Louvre and returned soon afterwards.</dcterms:provenance>
     </cp:dcSection>    
     
     <cp:vraSection>
@@ -70,7 +70,7 @@
                         <vra:name type="geographic" vocab="TGN" extent="city">Paris</vra:name>
                         <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
                     </vra:location>
-                        <vra:location type="CurrentOwner">
+                        <vra:location type="repository">
                             <vra:name type="corporate">Louvre</vra:name>
                             <vra:name type="geographic" vocab="TGN" extent="city">Paris</vra:name>
                             <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
