@@ -63,10 +63,10 @@
                 <vra:date type="stolen">
                     <vra:earliestDate>2017-05-13</vra:earliestDate>
                 </vra:date>
-            </vra:dateSet>
+            </vra:dateSet> 
             <vra:locationSet>
-                <vra:display>Museum of Religious Art of Fourvière, Lyon, France</vra:display>
-                <vra:location type="repository">
+                <vra:location>Museum of Religious Art of Fourvière, Lyon, France</vra:display>
+                <vra:location type="formerOwner">
                     <vra:name type="corporate">Museum of Religious Art of Fourvière</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="city">Lyon</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
