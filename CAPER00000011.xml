@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xmlns:dc="http://purl.org/dc/elements/1.1/"
-    xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:mods="http://www.loc.gov/mods/v3"
-    xmlns:vra="http://www.vraweb.org/vracore4.htm"
-    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
-
-  <cp:theftClass>fictional</cp:theftClass>
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:vra="http://www.vraweb.org/vracore4.htm"
+  xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+  
+  <cp:theftClass>factual</cp:theftClass>
   <cp:theftType>looting</cp:theftType>
-  <cp:value>100 million USD in 1999</cp:value>
+  <cp:value>personal</cp:value>
   <cp:status>stolen</cp:status>
   <cp:form>prosthetic leg</cp:form>
   <cp:class>personal property</cp:class>
@@ -17,108 +17,100 @@
   <cp:modsSection>
     <mods:mods>
       <mods:titleInfo>
-        <mods:title lang="fr">Saint-Georges majeur au crépuscule</mods:title>
+        <mods:title>General Antonio Lopez de Santa Anna’s Prosthetic Leg</mods:title>
       </mods:titleInfo>
       <mods:titleInfo type="alternative">
-        <mods:title lang="en">San Giorgio Maggiore at Dusk</mods:title>
+        <mods:title>Leg of Santa Anna</mods:title>
       </mods:titleInfo>
-      <mods:titleInfo type="alternative">
-        <mods:title lang="en">San Giorgio Maggiore by Twilight</mods:title>
-      </mods:titleInfo>
-      <mods:titleInfo type="alternative">
-        <mods:title lang="en">Sunset in Venice</mods:title>
-      </mods:titleInfo>
-      <mods:titleInfo type="alternative">
-        <mods:title lang="en">Dusk in Venice</mods:title>
-      </mods:titleInfo>
-      <mods:titleInfo type="alternative">
-        <mods:title lang="it">San Giorgio Maggiore al Crepuscolo</mods:title>
-      </mods:titleInfo>
-      <mods:name authority="naf" type="personal">
-        <mods:namePart>Monet, Claude, 1840-1926</mods:namePart>
+      <mods:name>
+        <mods:namePart>Bartlett, Charles</mods:namePart>
         <mods:role>
           <mods:roleTerm type="text">creator</mods:roleTerm>
         </mods:role>
       </mods:name>
       <mods:originInfo>
-        <mods:dateCreated encoding="iso8601" point="start">1908</mods:dateCreated>
+        <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
+        <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
         <mods:place>
-          <mods:placeTerm type="text" lang="en">Venice, Italy</mods:placeTerm>
-          <mods:placeTerm type="text" lang="en">France</mods:placeTerm>
+          <mods:placeTerm>United States</mods:placeTerm>
         </mods:place>
       </mods:originInfo>
-      <mods:abstract>
-        The Impressionist painting by Claude Monet was stolen from the Metropolitan Museum of Art in the 1999 American heist film The Thomas Crown Affair by Thomas Crown (played by Pierce Brosnan). In reality, the painting exists in two versions; one is housed in the National Museum Cardiff in Cardiff, Wales, and the other in the Bridgestone Museum of Art in Tokyo, Japan. 
-      </mods:abstract>
+      <mods:abstract>Most prominent prosthetic created for General de Santa Anna after much of his leg was amputated in 1838 as a result of a French cannon shattering his ankle in Veracruz; was captured during the Mexican-American War by Illinois troops (the Fourth Regiment Illinois Volunteers) after the U.S. victory in the Battle of Cerro Gordo in 1847. The prosthetic was briefly sent to the Crystal Palace in London and later shown in Washington, D.C. Despite requests to return the leg to Mexico or Texas, it is now stored under glass at the Illinois National Guard headquarters in Springfield for public viewing.</mods:abstract>
       <mods:subject>
         <mods:name type="personal" authority="naf">
-          <mods:namePart>Monet, Claude</mods:namePart>
-          <mods:namePart type="date">1840-1926</mods:namePart>
+          <mods:namePart>Santa Anna, Antonio Lopez de</mods:namePart>
+          <mods:namePart type="date">1794?-18761</mods:namePart>
         </mods:name>
       </mods:subject>
       <mods:subject>
-        <mods:topic authority="lcsh">Impressionism (Art)</mods:topic>
+        <mods:topic authority="lcsh">Mexican War, 1846-1848--Campaigns--Mexico</mods:topic>
       </mods:subject>
       <mods:subject>
-        <mods:geographic authority="lcsh">San Giorgio Maggiore Island (Italy)</mods:geographic>
+        <mods:topic authority="lcsh">Cerro Gordo, Battle of, Mexico, 1847</mods:topic>
       </mods:subject>
-      <mods:name authority="naf" type="corporate">
-        <mods:namePart>Metropolitan Museum of Art (New York, N.Y.)</mods:namePart>
+      <mods:subject>
+        <mods:topic authority="lcsh">Artificial legs</mods:topic>
+      </mods:subject>
+      <mods:subject>
+        <mods:geographic authority="lcsh">United States</mods:geographic>
+      </mods:subject>
+      <mods:name authority="naf" type="personal">
+        <mods:namePart>Santa Anna, Antonio López de</mods:namePart>
+        <mods:namePart type="date">1794?-1876</mods:namePart>
         <mods:role>
           <mods:roleTerm type="text">owner</mods:roleTerm>
         </mods:role>
       </mods:name>
-      <mods:name type="personal">
-        <mods:namePart>Crown, Thomas</mods:namePart>
+      <mods:name authority="naf" type="corporate">
+        <mods:namePart>United States. Army. Illinois Infantry Regiment, 4th (1898-1899)</mods:namePart>
+        <mods:displayForm>United States. Army. 4th Illinois Infantry Regiment (1898-1899)</mods:displayForm>
+        <mods:namePart>Army</mods:namePart>
+        <mods:namePart>Illinois Infantry Regiment, 4th</mods:namePart>
+        <mods:namePart type="date">1898-1899</mods:namePart>
         <mods:role>
           <mods:roleTerm type="text">thief</mods:roleTerm>
         </mods:role>
       </mods:name>
-      <mods:identifier>CAPER00000012</mods:identifier>
+      <mods:identifier>CAPER00000011</mods:identifier>
     </mods:mods>
   </cp:modsSection>
   
   <cp:dcSection>
     <dcterms:type>physical object</dcterms:type>
-    <dcterms:provenance>Stolen from the Metropolitan Museum of Art in the 1999 American heist film The Thomas Crown Affair by Thomas Crown (played by Pierce Brosnan) in 1999.
+    <dcterms:provenance>Stolen from General Antonio Lopez de Santa Anna by the Fourth Regiment Illinois Volunteers in 1847.
     </dcterms:provenance>
   </cp:dcSection>
   
   <cp:vraSection>
     <vra:work>
       <vra:culturalContextSet>
-        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">Italian</vra:culturalContext>
-        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">French</vra:culturalContext>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">Mexican</vra:culturalContext>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">American</vra:culturalContext>
       </vra:culturalContextSet>
       <vra:dateSet>
         <vra:date type="stolen">
-          <vra:earliestDate>1999</vra:earliestDate>
-          <vra:latestDate>1999</vra:latestDate>
+          <vra:earliestDate>1847</vra:earliestDate>
+          <vra:latestDate>1847</vra:latestDate>
         </vra:date>
       </vra:dateSet>
       <vra:locationSet>
-        <vra:display>In the home of Thomas Crown</vra:display>
-        <vra:location type="personal">
-          <vra:name type="geographic" vocab="TGN" extent="city">New York City</vra:name>
-          <vra:name type="geographic" vocab="TGN" extent="state">New York</vra:name>
-          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
-        </vra:location>
-        <vra:location type="formerRepository">
-          <vra:name type="corporate" vocab=" Grove Dictionary of Art Location Appendix">Museum of Modern Art [MoMA] (New York)</vra:name>
-          <vra:name type="geographic" vocab="TGN" extent="city">New York City</vra:name>
-          <vra:name type="geographic" vocab="TGN" extent="state">New York</vra:name>
+        <vra:display>Illinois State Military Museum</vra:display>
+        <vra:location type="repository">
+          <vra:name type="corporate">Illinois State Military Museum</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="city">Springfield</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="county">Sangamon County</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">Illinois</vra:name>
           <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
         </vra:location>
       </vra:locationSet>
       <vra:materialSet>
-        <vra:display>oil on canvas</vra:display>
-        <vra:material type="medium">oil paint</vra:material>
-        <vra:material type="support">canvas</vra:material>
+        <vra:display>cork and leather</vra:display>
+        <vra:material type="medium">cork</vra:material>
+        <vra:material type="medium">leather</vra:material>
       </vra:materialSet>
       <vra:measurementsSet>
-        <vra:display>65.2 cm × 92.4 cm (25.7 in × 36.4 in)</vra:display>
-        <vra:measurements type="length" unit="cm">65.2</vra:measurements>
-        <vra:measurements type="width" unit="cm">36.4</vra:measurements>
+        <vra:display>48 in</vra:display>
+        <vra:measurements type="length" unit="in">48</vra:measurements>
       </vra:measurementsSet>
     </vra:work>
   </cp:vraSection>
