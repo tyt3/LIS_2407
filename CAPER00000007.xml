@@ -70,6 +70,12 @@
                     <vra:name type="geographic" vocab="TGN" extent="city">Paris</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
                 </vra:location>
+                <vra:location>Louvre, Paris, France</vra:display>
+                <vra:location type="CurrentOwner">
+                    <vra:name type="corporate">Louvre</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="city">Paris</vra:name>
+                    <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
+                </vra:location>
             </vra:locationSet>  
             <vra:materialSet>
                 <vra:display>wood with oil on poplar panel</vra:display>
