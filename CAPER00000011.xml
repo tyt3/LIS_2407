@@ -55,10 +55,14 @@
     </mods:name>
     <mods:name authority="naf" type="corporate">
       <mods:namePart>United States. Army. Illinois Infantry Regiment, 4th (1898-1899)</mods:namePart>
-      <mods:role>
-        <mods:roleTerm type="text">thief</mods:roleTerm>
-      </mods:role>
-    </mods:name>
+      <mods:displayForm>United States. Army. 4th Illinois Infantry Regiment (1898-1899)</mods:displayForm>
+        <mods:namePart>Army.</mods:namePart>
+        <mods:namePart>Illinois Infantry Regiment, 4th</mods:namePart>
+        <mods:namePart type="date"></mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">thief</mods:roleTerm>
+        </mods:role>
+      </mods:name>
     <mods:identifier>CAPER00000011</mods:identifier>
     </mods:mods>
 </cp:modsSection>
