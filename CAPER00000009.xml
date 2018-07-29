@@ -61,8 +61,8 @@
                 </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:display>Franklin Institute, Philadelphia, United States</vra:display>
-                <vra:location type="geographic">
+                <vra:location>Franklin Institute, Philadelphia, United States</vra:display>
+                <vra:location type="formerRepository">
                     <vra:name type="corporate">Franklin Institute</vra:name>
                     <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Philadelphia</vra:name>
                     <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">United States</vra:name>
