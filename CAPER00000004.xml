@@ -23,8 +23,9 @@
             <mods:name type="personal">
                 <mods:namePart>Stradivari, Antonio of Cremona</mods:namePart>
                 <mods:role>
-                    <mods:roleTerm type="text">Maker</mods:roleTerm>
+                    <mods:roleTerm type="text">creator</mods:roleTerm>
                 </mods:role>
+                <mods:description>maker</mods:description>
             </mods:name>
             <mods:originInfo>
                 <mods:place>
