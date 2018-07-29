@@ -63,20 +63,37 @@
                 <vra:date type="stolen">
                     <vra:earliestDate>1919</vra:earliestDate>
                     <vra:latestDate>1919</vra:latestDate>
-                 </vra:date>
-                 <vra:date type="stolen">
+                </vra:date>
+                <vra:date type="stolen">
                     <vra:earliestDate>1936-02-28</vra:earliestDate>
                     <vra:latestDate>1985</vra:latestDate>
-                 </vra:date>
+                </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:display>Cremona, Italy. Vienna, Austria. London, England. Manhattan, New York.</vra:display>
-                <vra:location type="geographic">
+                <vra:location>
+                <vra:name>Cremona, Italy</vra:name>
+                </vra:location>
+                <vra:location type="formerOwner">
                     <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Cremona</vra:name>
+                </vra:location>
+                <vra:location>
+                <vra:name>Vienna, Austria</vra:name>
+                </vra:location>
+                <vra:location type="formerOwner">
                     <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">Vienna</vra:name>
+                </vra:location>
+                <vra:location>
+                <vra:name>London, England</vra:name>
+                </vra:location>
+                <vra:location type="formerOwner">
                     <vra:name type="geographic" vocab="TGN" refid="7008136" extent="city">Greater London</vra:name>
+                </vra:location>
+                <vra:location type="currentOwner">
+                <vra:name>Manhattan, New York, NY</vra:name>
+                </vra:location>
+                <vra:location>
                     <vra:name type="geographic" vocab="TGN" refid="2490393" extent="city">Manhattan</vra:name>
-                 </vra:location>
+                </vra:location>
             </vra:locationSet>  
             <vra:materialSet>
                 <vra:material>wood</vra:material>

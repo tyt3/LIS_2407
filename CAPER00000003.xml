@@ -6,7 +6,7 @@
     xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:vra="http://www.vraweb.org/vracore4.htm"
     xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
-        
+    
     <cp:theftClass>factual</cp:theftClass>
     <cp:theftType>burglary</cp:theftType>
     <cp:value>invaluable</cp:value>
@@ -15,41 +15,41 @@
     <cp:class>cultural artifact</cp:class>
     <cp:class>national property</cp:class>
     <cp:class>other</cp:class>
-
-<cp:modsSection>
-    <mods:mods>
-    <mods:titleInfo>
-        <mods:title>Jules Rimet Trophy</mods:title>
-    </mods:titleInfo>
-    <mods:name type="personal">
-        <mods:namePart>Lafleur, Abel</mods:namePart>
-        <mods:role>
-            <mods:roleTerm type="text">Creator</mods:roleTerm>
-        </mods:role>
-    </mods:name>
-    <mods:name type="personal">
-        <mods:namePart>Pickles the Dog</mods:namePart>
-        <mods:role>
-            <mods:roleTerm type="text">Trophy Finder</mods:roleTerm>
-        </mods:role>
-    </mods:name>
-    <mods:originInfo>
-        <mods:dateCreated encoding="iso8601">1929</mods:dateCreated>
-        <mods:dateModified encoding="iso8601">1954</mods:dateModified>
-        <mods:dateModified encoding="iso8601">1983</mods:dateModified>
-    </mods:originInfo>
-    <mods:abstract>Trophy, awarded to the winner of the FIFA World Cup between 1930 and 1970. Consists of gold-plated sterling silver statuette of winged female figure holding above her head a decagonal cup, 
-        depicting the Goddess Nike. Base replaced in 1954 with lapis lazuli base. Originally called "Victory," it was renamed after FIFA president Jules Rimet. Stolen in 1966 and recovered by
-        Pickles the Dog. Stolen again in 1983 in Brazil and presumed destroyed.
-    </mods:abstract> 
-    <mods:subject authority="lcsh">
-        <mods:topic>Soccer</mods:topic>
-        <mods:topic>Soccer--History</mods:topic>
-        <mods:topic>Soccer in popular Culture</mods:topic>
-    </mods:subject>
-    <mods:identifier>CAPER00000003</mods:identifier>
-    </mods:mods>
-</cp:modsSection>
+    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Jules Rimet Trophy</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Lafleur, Abel</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Creator</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="personal">
+                <mods:namePart>Pickles the Dog</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Trophy Finder</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:dateCreated encoding="iso8601">1929</mods:dateCreated>
+                <mods:dateModified encoding="iso8601">1954</mods:dateModified>
+                <mods:dateModified encoding="iso8601">1983</mods:dateModified>
+            </mods:originInfo>
+            <mods:abstract>Trophy, awarded to the winner of the FIFA World Cup between 1930 and 1970. Consists of gold-plated sterling silver statuette of winged female figure holding above her head a decagonal cup, 
+                depicting the Goddess Nike. Base replaced in 1954 with lapis lazuli base. Originally called "Victory," it was renamed after FIFA president Jules Rimet. Stolen in 1966 and recovered by
+                Pickles the Dog. Stolen again in 1983 in Brazil and presumed destroyed.
+            </mods:abstract> 
+            <mods:subject authority="lcsh">
+                <mods:topic>Soccer</mods:topic>
+                <mods:topic>Soccer--History</mods:topic>
+                <mods:topic>Soccer in popular Culture</mods:topic>
+            </mods:subject>
+            <mods:identifier>CAPER00000003</mods:identifier>
+        </mods:mods>
+    </cp:modsSection>
     
     <cp:dcSection>
         <dcterms:type>Trophy</dcterms:type>
@@ -66,9 +66,16 @@
                 </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:display>London, England. Brazil.</vra:display>
-                <vra:location type="geographic">
+                <vra:location>
+                    <vra:name>London</vra:name>
+                </vra:location>
+                <vra:location type="formerOwner">
                     <vra:name type="geographic" vocab="TGN" refid="7008136" extent="city">Greater London</vra:name>
+                </vra:location>
+                <vra:location>
+                <vra:name>Brazil</vra:name>
+                </vra:location>
+               <vra:location type="formerOwner">
                     <vra:name type="geographic" vocab="TGN" refid="2031163" extent="country">Brazil</vra:name>
                 </vra:location>
             </vra:locationSet>  

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -13,96 +14,102 @@
     <cp:status>other</cp:status>
     <cp:form>physical object</cp:form>
     <cp:class>cultural artifact</cp:class>
-
-<cp:modsSection>
-    <mods:mods>
-    <mods:titleInfo>
-        <mods:title>Ishtar Gate</mods:title>
-</mods:titleInfo>
-    <mods:name type="personal">
-        <mods:namePart>Nebuchadnezzar II, King of Babylonia, -562 B.C.</mods:namePart>
-        <mods:role>
-            <mods:roleTerm type="text">Patron</mods:roleTerm>
-        </mods:role>
-    </mods:name>
-    <mods:name type="corporate">
-        <mods:namePart>Pergamon Museum</mods:namePart>
-        <mods:role>
-            <mods:roleTerm type="text">Reconstructor</mods:roleTerm>
-        </mods:role>
-    </mods:name>
-<mods:originInfo>
-    <mods:place>
-        <mods:placeTerm>"Babylon"</mods:placeTerm>
-        <mods:placeTerm>"Mesopotamia"</mods:placeTerm>
-        <mods:placeTerm>"Iraq"</mods:placeTerm>
-        <mods:placeTerm>"Berlin, Germany"</mods:placeTerm>
-        <mods:placeTerm>"Pergamon Museum"</mods:placeTerm>
-    </mods:place>
-    <mods:dateCreated qualifier="approximate">-576</mods:dateCreated>
-    <mods:dateCreated encoding="iso8601">-576</mods:dateCreated>
-    <mods:dateModified encoding="iso8601">1902/1914</mods:dateModified>
-    <mods:dateOther encoding="iso8601">1930</mods:dateOther>
-</mods:originInfo>
-<mods:language>
-    <mods:languageTerm type="code" authority="iso639-2b">akk</mods:languageTerm>
-    <mods:scriptTerm type="code" authority="iso15924">Xsux</mods:scriptTerm>
-</mods:language>
-<mods:abstract>One of eight gates to the ancient city of Babylon. Materials from the excavation were brought to Berlin
-    and the gate reconstructed, completed in 1930, for display in the Pergamon Museum. Considered a major object 
-    of the cultural heritage by modern day Iraqis, many advocate for the return of the gate to their country.</mods:abstract>
-<mods:subject authority="lcsh">
-   <mods:topic>Babylon (Extinct city)--Antiquities.</mods:topic>
-   <mods:topic>Babylon (Extinct city)--Exhibitions.</mods:topic>
-   <mods:topic>Architecture, Ancient--Iraq--Babylonia.</mods:topic>        
-</mods:subject>
-<mods:identifier>CAPER00000002</mods:identifier>
-<mods:location>
-    <mods:physicalLocation>Pergamon Museum, Berlin, Germany</mods:physicalLocation>
-</mods:location>
-    </mods:mods>
-</cp:modsSection>
     
-<cp:dcSection>
-    <dcterms:type>physical object</dcterms:type>
-    <dcterms:provenance>Originally Nebuchadnezzar II, King of Babylonia and the people of Babylon. 
-        Currently property of the Pergamon Museum, Berlin, and the Federal Republic of Germany.</dcterms:provenance>
-</cp:dcSection>    
+    <cp:modsSection>
+        <mods:mods>
+            <mods:titleInfo>
+                <mods:title>Ishtar Gate</mods:title>
+            </mods:titleInfo>
+            <mods:name type="personal">
+                <mods:namePart>Nebuchadnezzar II, King of Babylonia, -562 B.C.</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Patron</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:name type="corporate">
+                <mods:namePart>Pergamon Museum</mods:namePart>
+                <mods:role>
+                    <mods:roleTerm type="text">Reconstructor</mods:roleTerm>
+                </mods:role>
+            </mods:name>
+            <mods:originInfo>
+                <mods:place>
+                    <mods:placeTerm>"Babylon"</mods:placeTerm>
+                    <mods:placeTerm>"Mesopotamia"</mods:placeTerm>
+                    <mods:placeTerm>"Iraq"</mods:placeTerm>
+                    <mods:placeTerm>"Berlin, Germany"</mods:placeTerm>
+                    <mods:placeTerm>"Pergamon Museum"</mods:placeTerm>
+                </mods:place>
+                <mods:dateCreated qualifier="approximate">-576</mods:dateCreated>
+                <mods:dateCreated encoding="iso8601">-576</mods:dateCreated>
+                <mods:dateModified encoding="iso8601">1902/1914</mods:dateModified>
+                <mods:dateOther encoding="iso8601">1930</mods:dateOther>
+            </mods:originInfo>
+            <mods:language>
+                <mods:languageTerm type="code" authority="iso639-2b">akk</mods:languageTerm>
+                <mods:scriptTerm type="code" authority="iso15924">Xsux</mods:scriptTerm>
+            </mods:language>
+            <mods:abstract>One of eight gates to the ancient city of Babylon. Materials from the excavation were brought to Berlin
+                and the gate reconstructed, completed in 1930, for display in the Pergamon Museum. Considered a major object 
+                of the cultural heritage by modern day Iraqis, many advocate for the return of the gate to their country.</mods:abstract>
+            <mods:subject authority="lcsh">
+                <mods:topic>Babylon (Extinct city)--Antiquities.</mods:topic>
+                <mods:topic>Babylon (Extinct city)--Exhibitions.</mods:topic>
+                <mods:topic>Architecture, Ancient--Iraq--Babylonia.</mods:topic>        
+            </mods:subject>
+            <mods:identifier>CAPER00000002</mods:identifier>
+            <mods:location>
+                <mods:physicalLocation>Pergamon Museum, Berlin, Germany</mods:physicalLocation>
+            </mods:location>
+        </mods:mods>
+    </cp:modsSection>
     
-<cp:vraSection>
-    <vra:work>
-        <vra:culturalContextSet>
-            <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
-                refid="933330">Eleventh Dynasty</vra:culturalContext>
-            <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
-                refid="901800">German</vra:culturalContext>
-        </vra:culturalContextSet>
-        <vra:dateSet>
-            <vra:display>Unearthed between 1902 and 1914</vra:display>
-            <vra:date>
-                <vra:earliestDate>1902</vra:earliestDate>
-                <vra:latestDate>1914</vra:latestDate>
-            </vra:date>
-        </vra:dateSet>
-        <vra:locationSet>
-            <vra:display>Pergamon Museum, Berlin, Germany</vra:display>
-            <vra:location type="repository">
-                <vra:name type="corporate">Pergamon Museum</vra:name>
-                <vra:name type="geographic" vocab="TGN" extent="city">Berlin</vra:name>
-                <vra:name type="geographic" vocab="TGN" extent="nation">Germany</vra:name>
-            </vra:location>
-        </vra:locationSet>  
-        <vra:materialSet>
-            <vra:display>brick and tile</vra:display>
+    <cp:dcSection>
+        <dcterms:type>physical object</dcterms:type>
+        <dcterms:provenance>Originally Nebuchadnezzar II, King of Babylonia and the people of Babylon. 
+            Currently property of the Pergamon Museum, Berlin, and the Federal Republic of Germany.</dcterms:provenance>
+    </cp:dcSection>    
+    
+    <cp:vraSection>
+        <vra:work>
+            <vra:culturalContextSet>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
+                    refid="933330">Eleventh Dynasty</vra:culturalContext>
+                <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html"
+                    refid="901800">German</vra:culturalContext>
+            </vra:culturalContextSet>
+            <vra:dateSet>
+                <vra:display>Unearthed between 1902 and 1914</vra:display>
+                <vra:date>
+                    <vra:earliestDate>1902</vra:earliestDate>
+                    <vra:latestDate>1914</vra:latestDate>
+                </vra:date>
+            </vra:dateSet>
+            <vra:locationSet>
+                <vra:location>
+                    <vra:name>Babylon</vra:name>
+                </vra:location>
+                <vra:location type="formerOwner">
+                    <vra:name type="geographic" vocab="TGN" refid="7002626" extent="city">Babylon</vra:name>
+                </vra:location>
+                <vra:location>
+                    <vra:name>Berlin</vra:name>
+                </vra:location>
+                <vra:location type="currentOwner">
+                    <vra:name type="geographic" vocab="TGN" refid="7003712" extent="city">Berlin</vra:name>
+                </vra:location>
+            </vra:locationSet>  
+            <vra:materialSet>
+                <vra:display>brick and tile</vra:display>
                 <vra:material type="medium">brick</vra:material>
                 <vra:material type="medium">tile</vra:material>
-        </vra:materialSet>
-        <vra:measurementsSet>
-            <vra:display>14 meters high by 30 meters wide</vra:display>
+            </vra:materialSet>
+            <vra:measurementsSet>
+                <vra:display>14 meters high by 30 meters wide</vra:display>
                 <vra:measurements type="height" unit="m">14</vra:measurements>
                 <vra:measurements type="width" unit="m">30</vra:measurements>
-        </vra:measurementsSet>
-     </vra:work>
-</cp:vraSection>
+            </vra:measurementsSet>
+        </vra:work>
+    </cp:vraSection>
     
 </cp:caper>
