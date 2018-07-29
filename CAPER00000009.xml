@@ -33,10 +33,8 @@
                 </mods:place>
             </mods:originInfo>
             <mods:abstract>The warrior statues date back to 209 B.C., when the Qin Dynasty ruled China. The life-size statues were constructed to guard the tomb of China's first emperor, Qin Shi Huang.The ancient statue is valued at $4.5 million and considered a "priceless part of China's cultural heritage." It was on display at Philadelphia's Franklin Institute when the vandalism took place.</mods:abstract>
-            <mods:subject>
-                <mods:name type="personal" authority="lcsh">
-                    <mods:namePart>First Empror in China</mods:namePart>
-                </mods:name>
+            <mods:subject authority="lcsh">
+                <mods:topic>China--History--Qin dynasty, 221-207 B.C</topic>     
             </mods:subject>
             <mods:subject authority="lcsh">
                 <mods:topic authority="lcsh">Funeral decorations</mods:topic>
