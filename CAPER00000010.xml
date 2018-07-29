@@ -5,7 +5,7 @@
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:vra="http://www.vraweb.org/vracore4.htm"
-    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper-2018.xsd">
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
     
     <cp:theftClass>factual</cp:theftClass>
     <cp:theftType>theft</cp:theftType>
