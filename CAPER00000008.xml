@@ -65,8 +65,14 @@
                 </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:display>Oslo's National Gallery, Oslo, Norway</vra:display>
-                <vra:location type="geographic">
+                <vra:location>Oslo's National Gallery, Oslo, Norway</vra:display>
+                <vra:location type="formerOwner">
+                    <vra:name type="corporate">Oslo's National Gallery</vra:name>
+                    <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Oslo</vra:name>
+                    <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">Norway</vra:name>
+                </vra:location>
+                <vra:location>Oslo's National Gallery, Oslo, Norway</vra:display>
+                <vra:location type="currentOwner">
                     <vra:name type="corporate">Oslo's National Gallery</vra:name>
                     <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Oslo</vra:name>
                     <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">Norway</vra:name>
