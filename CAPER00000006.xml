@@ -25,11 +25,11 @@
                     <mods:roleTerm type="text">owner</mods:roleTerm>
                 </mods:role>
             </mods:name>
-            <mods:name type="other">
+            <mods:name type="family">
                 <mods:namePart>Family of Lyon</mods:namePart>
-            <mods:role>
+                <mods:role>
                     <mods:roleTerm type="text">owner</mods:roleTerm>
-            </mods:role>
+                </mods:role>
             </mods:name>
             <mods:originInfo>
                 <mods:place>
@@ -65,12 +65,12 @@
                 </vra:date>
             </vra:dateSet> 
             <vra:locationSet>
-                <vra:location>Museum of Religious Art of Fourvière, Lyon, France</vra:display>
-                <vra:location type="formerRepository">
-                    <vra:name type="corporate">Museum of Religious Art of Fourvière</vra:name>
-                    <vra:name type="geographic" vocab="TGN" extent="city">Lyon</vra:name>
-                    <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
-                </vra:location>
+                <vra:display>Museum of Religious Art of Fourvière, Lyon, France</vra:display>
+                    <vra:location type="formerRepository">
+                        <vra:name type="corporate">Museum of Religious Art of Fourvière</vra:name>
+                        <vra:name type="geographic" vocab="TGN" extent="city">Lyon</vra:name>
+                        <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
+                    </vra:location>
             </vra:locationSet>  
             <vra:materialSet>
                 <vra:display>precious stones and pearls</vra:display>
