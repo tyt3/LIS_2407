@@ -37,6 +37,8 @@
                 <mods:name type="personal" authority="lcsh">
                     <mods:namePart>First Empror in China</mods:namePart>
                 </mods:name>
+            </mods:subject>
+            <mods:subject authority="lcsh">
                 <mods:topic authority="lcsh">Funeral decorations</mods:topic>
             </mods:subject>
             <mods:identifier>CAPER00000009</mods:identifier>
