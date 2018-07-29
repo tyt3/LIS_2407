@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -49,8 +49,14 @@
         <mods:name authority="naf" type="personal">
           <mods:namePart>Rogers, Fred</mods:namePart>
         </mods:name>
+      </mods:subject>
+      <mods:subject>
         <mods:topic authority="lcsh">Automobiles</mods:topic>
+      </mods:subject>
+      <mods:subject>
         <mods:topic authority="lcsh">Automobile theft</mods:topic>
+      </mods:subject>
+      <mods:subject>
         <mods:geographic authority="lcsh">United States</mods:geographic>
       </mods:subject>
       <mods:name authority="naf" type="personal" >
