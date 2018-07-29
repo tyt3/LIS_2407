@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -36,6 +36,7 @@
         </mods:role>
       </mods:name>     
       <mods:originInfo>
+        <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
         <mods:dateCreated encoding="w3cdtf">1931-04-11</mods:dateCreated>
         <mods:place>
           <mods:placeTerm>United States</mods:placeTerm>
@@ -44,13 +45,15 @@
       <mods:abstract>On December 1, 2008, the New York Daily News stole the iconic skyscraper by exploiting (and exposing) a legal loophole, through which some of the newspaper’s journalists were able to get the city to transfer the deeds of the tower to a fraudulent party using a forged notary stamp. The heist, one of the biggest of American history, took less than 90 minutes. The US$1.89 billion tower was returned within less than 24 hours. The 102-story Art Deco skyscraper is located on 350 Fifth Avenue Manhattan, New York.
       </mods:abstract>
       <mods:subject>
-        <mods:name type="personal" authority="naf">
-          <mods:namePart>Santa Anna, Antonio Lopez de</mods:namePart>
-          <mods:namePart type="date">1794?-18761</mods:namePart>
-        </mods:name>
         <mods:topic authority="naf">Empire State Building (New York, N.Y.)</mods:topic>
+      </mods:subject>
+      <mods:subject>
         <mods:topic authority="lcsh">Real Property</mods:topic>
+      </mods:subject>
+      <mods:subject>
         <mods:geographic authority="lcsh">New York (State)--New York</mods:geographic>
+      </mods:subject>
+      <mods:subject>
         <mods:geographic authority="lcsh">United States</mods:geographic>
       </mods:subject>
       <mods:name type="corporate">
