@@ -44,7 +44,11 @@
             </mods:abstract> 
             <mods:subject authority="lcsh">
                 <mods:topic>Soccer</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh">
                 <mods:topic>Soccer--History</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh">
                 <mods:topic>Soccer in popular Culture</mods:topic>
             </mods:subject>
             <mods:identifier>CAPER00000003</mods:identifier>
@@ -73,9 +77,9 @@
                     <vra:name type="geographic" vocab="TGN" refid="7008136" extent="city">Greater London</vra:name>
                 </vra:location>
                 <vra:location>
-                <vra:name>Brazil</vra:name>
+                    <vra:name>Brazil</vra:name>
                 </vra:location>
-               <vra:location type="formerOwner">
+                <vra:location type="formerOwner">
                     <vra:name type="geographic" vocab="TGN" refid="2031163" extent="country">Brazil</vra:name>
                 </vra:location>
             </vra:locationSet>  
