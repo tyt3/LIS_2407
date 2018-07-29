@@ -9,7 +9,7 @@
   
   <cp:theftClass>factual</cp:theftClass>
   <cp:theftType>robbery</cp:theftType>
-  <cp:value>294,307,500 JP</cp:value>
+  <cp:value>294,307,500 JPY</cp:value>
   <cp:status>missing</cp:status>
   <cp:form>money</cp:form>
   <cp:class>corporate property</cp:class>
@@ -73,8 +73,7 @@
   
   <cp:dcSection>
     <dcterms:type>physical object</dcterms:type>
-    <dcterms:provenance>Stolen from the Nihon Shintaku Ginkō by an unknown agent in 1968.
-    </dcterms:provenance>
+    <dcterms:provenance>Stolen from the Nihon Shintaku Ginkō by an unknown agent in 1968.</dcterms:provenance>
   </cp:dcSection>
   
   <cp:vraSection>
@@ -90,7 +89,7 @@
       </vra:dateSet>
       <vra:locationSet>
         <vra:location type="other">
-          <vra:name type="formerOwner">unknown</vra:name>
+          <vra:name type="other">unknown</vra:name>
         </vra:location>
         <vra:location type="formerOwner">
           <vra:name type="corporate">Nihon Shintaku Ginkō</vra:name>
