@@ -138,17 +138,15 @@
                 </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:location>France. London, England.</vra:display>
-                <vra:location type="formerOwner">
-                    <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
-                    <vra:name type="geographic" vocab="TGN" extent="city">London</vra:name>
-                    <vra:name type="geographic" vocab="TGN" extent="nation">England</vra:name>
-                </vra:location>
-                <vra:location>Smithsonian Institution National Museum of Natural History, United States.</vra:display>
-                <vra:location type="currentOwner">
-                    <vra:name type="geographic" vocab="TGN" extent="corporate">Smithsonian Institution National Museum of Natural History</vra:name>
-                    <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
-                </vra:location>
+                    <vra:location type="formerOwner">
+                        <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
+                        <vra:name type="geographic" vocab="TGN" extent="city">London</vra:name>
+                        <vra:name type="geographic" vocab="TGN" extent="nation">England</vra:name>
+                    </vra:location>
+                    <vra:location type="currentOwner">
+                        <vra:name type="geographic" vocab="TGN" extent="corporate">Smithsonian Institution National Museum of Natural History</vra:name>
+                        <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+                    </vra:location>
             </vra:locationSet>  
             <vra:materialSet>
                 <vra:material>dimond</vra:material>
