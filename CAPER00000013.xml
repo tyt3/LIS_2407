@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xmlns:dc="http://purl.org/dc/elements/1.1/"
@@ -9,7 +9,7 @@
   
   <cp:theftClass>factual</cp:theftClass>
   <cp:theftType>robbery</cp:theftType>
-  <cp:value>294,307,500 Yen</cp:value>
+  <cp:value>294,307,500 JP</cp:value>
   <cp:status>missing</cp:status>
   <cp:form>money</cp:form>
   <cp:class>corporate property</cp:class>
@@ -20,7 +20,7 @@
         <mods:title>300 Million Yen</mods:title>
       </mods:titleInfo>
       <mods:titleInfo type="alternative" >
-        <mods:title>294,307,500 JPY</mods:title>
+        <mods:title>294,307,500 Yen</mods:title>
       </mods:titleInfo>
       <mods:titleInfo xml:lang="ja">
         <mods:title>三億円</mods:title>
