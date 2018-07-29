@@ -9,7 +9,7 @@
     
     <cp:theftClass>factual</cp:theftClass>
     <cp:theftType>theft</cp:theftType>
-    <cp:value>€1,000,000</cp:value>
+    <cp:value>1 million EUR</cp:value>
     <cp:status>stolen</cp:status>
     <cp:form>physical object</cp:form>
     <cp:class>cultural artifact</cp:class>
