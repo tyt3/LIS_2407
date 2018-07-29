@@ -64,8 +64,8 @@
                 </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:display>Louvre, Paris, France</vra:display>
-                <vra:location type="repository">
+                <vra:location>Louvre, Paris, France</vra:display>
+                <vra:location type="formerOwner">
                     <vra:name type="corporate">Louvre</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="city">Paris</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
