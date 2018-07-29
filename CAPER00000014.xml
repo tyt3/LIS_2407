@@ -36,8 +36,7 @@
         </mods:role>
       </mods:name>     
       <mods:originInfo>
-        <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
-        <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
+        <mods:dateCreated encoding="w3cdtf">1931-04-11</mods:dateCreated>
         <mods:place>
           <mods:placeTerm>United States</mods:placeTerm>
         </mods:place>
