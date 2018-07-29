@@ -54,7 +54,11 @@
                 of the cultural heritage by modern day Iraqis, many advocate for the return of the gate to their country.</mods:abstract>
             <mods:subject authority="lcsh">
                 <mods:topic>Babylon (Extinct city)--Antiquities.</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh">
                 <mods:topic>Babylon (Extinct city)--Exhibitions.</mods:topic>
+            </mods:subject>
+            <mods:subject authority="lcsh">
                 <mods:topic>Architecture, Ancient--Iraq--Babylonia.</mods:topic>        
             </mods:subject>
             <mods:identifier>CAPER00000002</mods:identifier>
