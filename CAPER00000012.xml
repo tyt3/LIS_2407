@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:dcterms="http://purl.org/dc/terms/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:vra="http://www.vraweb.org/vracore4.htm"
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper-2018.xsd">
+
+  <cp:theftClass>fictional</cp:theftClass>
+  <cp:theftType>looting</cp:theftType>
+  <cp:value>100 million USD in 1999</cp:value>
+  <cp:status>stolen</cp:status>
+  <cp:form>prosthetic leg</cp:form>
+  <cp:class>personal property</cp:class>
+  
+  <cp:modsSection>
+    <mods:mods>
+      <mods:titleInfo>
+        <mods:title lang="fr">Saint-Georges majeur au crépuscule</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative">
+        <mods:title lang="en">San Giorgio Maggiore at Dusk</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative">
+        <mods:title lang="en">San Giorgio Maggiore by Twilight</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative">
+        <mods:title lang="en">Sunset in Venice</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative">
+        <mods:title lang="en">Dusk in Venice</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative">
+        <mods:title lang="it">San Giorgio Maggiore al Crepuscolo</mods:title>
+      </mods:titleInfo>
+      <mods:name authority="naf" type="personal">
+        <mods:namePart>Monet, Claude, 1840-1926</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">creator</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:originInfo>
+        <mods:dateCreated encoding="iso8601" point="start">1908</mods:dateCreated>
+        <mods:place>
+          <mods:placeTerm type="text" lang="en">Venice, Italy</mods:placeTerm>
+          <mods:placeTerm type="text" lang="en">France</mods:placeTerm>
+        </mods:place>
+      </mods:originInfo>
+      <mods:abstract>
+        The Impressionist painting by Claude Monet was stolen from the Metropolitan Museum of Art in the 1999 American heist film The Thomas Crown Affair by Thomas Crown (played by Pierce Brosnan). In reality, the painting exists in two versions; one is housed in the National Museum Cardiff in Cardiff, Wales, and the other in the Bridgestone Museum of Art in Tokyo, Japan. 
+      </mods:abstract>
+      <mods:subject>
+        <mods:name type="personal" authority="naf">
+          <mods:namePart>Monet, Claude</mods:namePart>
+          <mods:namePart type="date">1840-1926</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh">Impressionism (Art)</mods:topic>
+        <mods:geographic authority="lcsh">San Giorgio Maggiore Island (Italy)</mods:geographic>
+      </mods:subject>
+      <mods:name authority="naf" type="corporate">
+        <mods:namePart>Metropolitan Museum of Art (New York, N.Y.)</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">owner</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:name type="personal">
+        <mods:namePart>Crown, Thomas</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">thief</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:identifier>CAPER00000012</mods:identifier>
+    </mods:mods>
+  </cp:modsSection>
+  
+  <cp:dcSection>
+    <dcterms:type>physical object</dcterms:type>
+    <dcterms:provenance>Stolen from the Metropolitan Museum of Art in the 1999 American heist film The Thomas Crown Affair by Thomas Crown (played by Pierce Brosnan) in 1999.
+    </dcterms:provenance>
+  </cp:dcSection>
+  
+  <cp:vraSection>
+    <vra:work>
+      <vra:culturalContextSet>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">Italian</vra:culturalContext>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">French</vra:culturalContext>
+      </vra:culturalContextSet>
+      <vra:dateSet>
+        <vra:date type="stolen">
+          <vra:earliestDate>1999</vra:earliestDate>
+          <vra:latestDate>1999</vra:latestDate>
+        </vra:date>
+      </vra:dateSet>
+      <vra:locationSet>
+        <vra:display>In the home of Thomas Crown</vra:display>
+        <vra:location type="personal">
+          <vra:name type="geographic" vocab="TGN" extent="city">New York City</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">New York</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+        </vra:location>
+        <vra:location type="formerRepository">
+          <vra:name type="corporate" vocab=" Grove Dictionary of Art Location Appendix">Museum of Modern Art [MoMA] (New York)</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="city">New York City</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">New York</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+        </vra:location>
+      </vra:locationSet>
+      <vra:materialSet>
+        <vra:display>oil on canvas</vra:display>
+        <vra:material type="medium">oil paint</vra:material>
+        <vra:material type="support">canvas</vra:material>
+      </vra:materialSet>
+      <vra:measurementsSet>
+        <vra:display>65.2 cm × 92.4 cm (25.7 in × 36.4 in)</vra:display>
+        <vra:measurements type="length" unit="cm">65.2</vra:measurements>
+        <vra:measurements type="width" unit="cm">36.4</vra:measurements>
+      </vra:measurementsSet>
+    </vra:work>
+  </cp:vraSection>
+</cp:caper>

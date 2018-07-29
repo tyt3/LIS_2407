@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:vra="http://www.vraweb.org/vracore4.htm"
+  xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+  
+  <cp:theftClass>factual</cp:theftClass>
+  <cp:theftType>fraud</cp:theftType>
+  <cp:value>approx. 2 billion USD (at time)</cp:value>
+  <cp:status>recovered</cp:status>
+  <cp:form>building</cp:form>
+  <cp:class>corporate property</cp:class>
+  
+  <cp:modsSection>
+    <mods:mods>
+      <mods:titleInfo authority="lcsh">
+        <mods:title>Empire State Building (New York, N.Y.)</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative">
+        <mods:title>Empire State Building</mods:title>
+      </mods:titleInfo>
+      <mods:name authority="naf" type="corporate">
+        <mods:namePart>Shreve, Lamb &amp; Harmon</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">creator</mods:roleTerm>
+        </mods:role>
+        <mods:description>architect</mods:description>
+      </mods:name>
+      <mods:name authority="naf" type="corporate">
+        <mods:namePart>	Empire State, Inc.</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">developer</mods:roleTerm>
+        </mods:role>
+      </mods:name>     
+      <mods:originInfo>
+        <mods:dateCreated qualifier="approximate">1838</mods:dateCreated>
+        <mods:dateCreated encoding="iso8601">1838</mods:dateCreated>
+        <mods:place>
+          <mods:placeTerm>United States</mods:placeTerm>
+        </mods:place>
+      </mods:originInfo>
+      <mods:abstract>On December 1, 2008, the New York Daily News stole the iconic skyscraper by exploiting (and exposing) a legal loophole, through which some of the newspaper’s journalists were able to get the city to transfer the deeds of the tower to a fraudulent party using a forged notary stamp. The heist, one of the biggest of American history, took less than 90 minutes. The US$1.89 billion tower was returned within less than 24 hours. The 102-story Art Deco skyscraper is located on 350 Fifth Avenue Manhattan, New York.
+      </mods:abstract>
+      <mods:subject>
+        <mods:name type="personal" authority="naf">
+          <mods:namePart>Santa Anna, Antonio Lopez de</mods:namePart>
+          <mods:namePart type="date">1794?-18761</mods:namePart>
+        </mods:name>
+        <mods:topic authority="naf">Empire State Building (New York, N.Y.)</mods:topic>
+        <mods:topic authority="lcsh">Real Property</mods:topic>
+        <mods:geographic authority="lcsh">New York (State)--New York</mods:geographic>
+        <mods:geographic authority="lcsh">United States</mods:geographic>
+      </mods:subject>
+      <mods:name type="corporate">
+        <mods:namePart>Empire State Realty Trust</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">owner</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:name authority="naf" type="corporate">
+        <mods:namePart>New York Daily News (Firm)</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">thief</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:identifier>CAPER00000014</mods:identifier>
+    </mods:mods>
+  </cp:modsSection>
+  
+  <cp:dcSection>
+    <dcterms:type>physical object</dcterms:type>
+    <dcterms:provenance>Stolen from the Empire State Realty Trust by the New York Daily News on December 1, 2008. </dcterms:provenance>
+    <dcterms:provenance>Returned to the Empire State Realty Trust by the New York Daily News on December 2, 2008.</dcterms:provenance>
+  </cp:dcSection>
+  
+  <cp:vraSection>
+    <vra:work>
+      <vra:culturalContextSet>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">American</vra:culturalContext>
+      </vra:culturalContextSet>
+      <vra:dateSet>
+        <vra:date type="stolen">
+          <vra:earliestDate>2008-12-01</vra:earliestDate>
+          <vra:latestDate>2008-12-02</vra:latestDate>
+        </vra:date>
+        <vra:date type="recovered">
+          <vra:earliestDate>2008-12-02</vra:earliestDate>
+          <vra:latestDate>2008-12-02</vra:latestDate>
+        </vra:date>
+      </vra:dateSet>
+      <vra:locationSet>
+        <vra:location type="owner">
+          <vra:name type="corporate">Empire State Realty Trust</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="inhabited place">New York City</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">New York</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+        </vra:location>
+        <vra:location type="formerOwner">
+          <vra:name type="corporate">New York Daily News (Firm)</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="inhabited place">New York City</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">New York</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+        </vra:location>
+      </vra:locationSet>
+      <vra:materialSet>
+        <vra:display>steel, marble, and other materials</vra:display>
+        <vra:material type="medium">steel</vra:material>
+        <vra:material type="medium">marble</vra:material>
+      </vra:materialSet>
+      <vra:measurementsSet>
+        <vra:display>
+          Architectural:	1,250 ft (381.0 m)
+          Tip:	1,454 ft (443.2 m)
+          Roof:	1,250 ft (381.0 m)
+          Top floor:	1,224 ft (373.1 m)
+          Observatory:	1,224 ft (373.1 m) (102nd floor); 1,050 feet (320 m) (86th floor)
+          Other dimensions: 424 ft (129.2 m) east–west by 187 ft (57.0 m) north–south
+        </vra:display>
+        <vra:measurements type="height" unit="lm">381.0</vra:measurements>
+        <vra:measurements type="height" unit="ft">1250</vra:measurements>
+        <vra:measurements type="base" unit="lm">129.2 x 57.0</vra:measurements>
+        <vra:measurements type="base" unit="ft">424 x 187</vra:measurements>
+      </vra:measurementsSet>
+    </vra:work>
+  </cp:vraSection>
+</cp:caper>

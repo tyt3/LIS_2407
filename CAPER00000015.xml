@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:vra="http://www.vraweb.org/vracore4.htm"
+  xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+  
+  <cp:theftClass>alleged</cp:theftClass>
+  <cp:theftType>auto theft</cp:theftType>
+  <cp:value>unknown</cp:value>
+  <cp:status>recovered</cp:status>
+  <cp:form>automobile</cp:form>
+  <cp:class>personal property</cp:class>
+  
+  <cp:modsSection>
+    <mods:mods>
+      <mods:titleInfo>
+        <mods:title>Fred Rogers' Chevy Impala</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative" >
+        <mods:title>Fred Rogers' Chevrolet Impala</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative" >
+        <mods:title>Mister Rogers' Chevy Impala</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative" >
+        <mods:title>Mister Rogers' Chevrolet Impala</mods:title>
+      </mods:titleInfo>
+      <mods:name authority="naf" type="corporate">
+        <mods:namePart>General Motors Corporation. Chevrolet Motor Division</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">creator</mods:roleTerm>
+        </mods:role>
+        <mods:description>manufacturer</mods:description>
+      </mods:name>
+      <mods:originInfo>
+        <mods:dateCreated encoding="iso8601" point="start" qualifier="approximate">1967</mods:dateCreated>
+        <mods:dateCreated encoding="iso8601" point="end">1968</mods:dateCreated>
+        <mods:place>
+          <mods:placeTerm type="text" lang="en">United States</mods:placeTerm>
+        </mods:place>
+      </mods:originInfo>
+      <mods:abstract>
+        Used 1968 Chevrolet Impala belonging to famous American television personality Fred Rogers; was purportedly stolen in 1990 and returned to the place from which it was taken within 48 hours, after a police report was filed and several local news and media outlets had picked up the story. A note was left on the dashboard of the car, reading, "If we'd known it was yours, we never would have taken it."
+      </mods:abstract>
+      <mods:subject>
+        <mods:name authority="naf" type="personal">
+          <mods:namePart>Rogers, Fred</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh">Automobiles</mods:topic>
+        <mods:topic authority="lcsh">Automobile theft</mods:topic>
+        <mods:geographic authority="lcsh">United States</mods:geographic>
+      </mods:subject>
+      <mods:name authority="naf" type="personal" >
+        <mods:namePart>Rogers, Fred</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">owner</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:name type="personal">
+        <mods:namePart>unknown</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">thief</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:identifier>CAPER00000015</mods:identifier>
+    </mods:mods>
+  </cp:modsSection>
+  
+  <cp:dcSection>
+    <dcterms:type>physical object</dcterms:type>
+    <dcterms:provenance>Stolen from Fred Rogers by an unknown agents in 1990.
+    </dcterms:provenance>
+  </cp:dcSection>
+  
+  <cp:vraSection>
+    <vra:work>
+      <vra:culturalContextSet>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">American</vra:culturalContext>
+      </vra:culturalContextSet>
+      <vra:dateSet>
+        <vra:date type="stolen">
+          <vra:earliestDate>1990</vra:earliestDate>
+          <vra:latestDate>1990</vra:latestDate>
+        </vra:date>
+        <vra:date type="recovered">
+          <vra:earliestDate>1990</vra:earliestDate>
+          <vra:latestDate>1990</vra:latestDate>
+        </vra:date>
+      </vra:dateSet>
+      <vra:locationSet>
+        <vra:location type="other">
+          <vra:name type="other">unknown</vra:name>
+        </vra:location>
+        <vra:location type="formerOwner">
+          <vra:name type="personal">Rogers, Fred</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="city">Pittsburgh</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">Pennsylvania</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+        </vra:location>
+        <vra:location type="formerOwner">
+          <vra:name type="corporate">unknonwn</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="city">Pittsburgh</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="state">Pennsylvania</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">United States</vra:name>
+        </vra:location>
+      </vra:locationSet>
+      <vra:materialSet>
+        <vra:display>steel body</vra:display>
+        <vra:material type="medium">steel</vra:material>
+      </vra:materialSet>
+    </vra:work>
+  </cp:vraSection>
+</cp:caper>

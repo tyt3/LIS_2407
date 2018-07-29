@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:dcterms="http://purl.org/dc/terms/"
+  xmlns:mods="http://www.loc.gov/mods/v3"
+  xmlns:vra="http://www.vraweb.org/vracore4.htm"
+  xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
+  
+  <cp:theftClass>factual</cp:theftClass>
+  <cp:theftType>robbery</cp:theftType>
+  <cp:value>294,307,500 Yen</cp:value>
+  <cp:status>missing</cp:status>
+  <cp:form>money</cp:form>
+  <cp:class>corporate property</cp:class>
+  
+  <cp:modsSection>
+    <mods:mods>
+      <mods:titleInfo>
+        <mods:title>300 Million Yen</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo type="alternative" >
+        <mods:title>294,307,500 JPY</mods:title>
+      </mods:titleInfo>
+      <mods:titleInfo xml:lang="ja">
+        <mods:title>三億円</mods:title>
+      </mods:titleInfo>
+      <mods:name type="corporate">
+        <mods:namePart>Japanese Ministry of Finance</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">creator</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:originInfo>
+        <mods:dateCreated encoding="iso8601" point="start" qualifier="approximate">1957</mods:dateCreated>
+        <mods:dateCreated encoding="iso8601" point="end" qualifier="approximate">1968</mods:dateCreated>
+        <mods:place>
+          <mods:placeTerm type="text" lang="en">Japan</mods:placeTerm>
+        </mods:place>
+      </mods:originInfo>
+      <mods:abstract>
+        On December 10, 1968 in Tokyo, Japan, these 294,307,500 yen (then equivalent to US$817,520) became of particularly significance (the amount often rounded up and referred to as 300 million yen) after they were stolen from the Kokubunji branch of the Nihon Shintaku Ginko (bank) in what was the largest heist in Japanese history at the time. Though no longer under the statute of limitations, the thief has yet to come forward or be revealed, and where the money went remains unknown.
+      </mods:abstract>
+      <mods:subject>
+        <mods:name type="corporate" authority="naf">
+          <mods:namePart>Nihon Shintaku Ginkō</mods:namePart>
+        </mods:name>
+        <mods:topic authority="lcsh">Currency--Japan</mods:topic>
+        <mods:topic authority="lcsh">Bank notes</mods:topic>
+        <mods:geographic authority="lcsh">Japan</mods:geographic>
+      </mods:subject>
+      <mods:name type="corporate" authority="naf">
+        <mods:namePart>Nihon Shintaku Ginkō</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">owner</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:name type="personal">
+        <mods:namePart>unknown</mods:namePart>
+        <mods:role>
+          <mods:roleTerm type="text">thief</mods:roleTerm>
+        </mods:role>
+      </mods:name>
+      <mods:identifier>CAPER00000013</mods:identifier>
+    </mods:mods>
+  </cp:modsSection>
+  
+  <cp:dcSection>
+    <dcterms:type>physical object</dcterms:type>
+    <dcterms:provenance>Stolen from the Nihon Shintaku Ginkō by an unknown agent in 1968.
+    </dcterms:provenance>
+  </cp:dcSection>
+  
+  <cp:vraSection>
+    <vra:work>
+      <vra:culturalContextSet>
+        <vra:culturalContext vocab="ULAN Nationalities and Places" href="http://www.getty.edu/research/conducting_research/vocabularies/editorial_guidelines.html">Japan</vra:culturalContext>
+      </vra:culturalContextSet>
+      <vra:dateSet>
+        <vra:date type="stolen">
+          <vra:earliestDate>1968-12-10</vra:earliestDate>
+          <vra:latestDate>1968-12-10</vra:latestDate>
+        </vra:date>
+      </vra:dateSet>
+      <vra:locationSet>
+        <vra:location type="other">
+          <vra:name type="formerOwner">unknown</vra:name>
+        </vra:location>
+        <vra:location type="formerOwner">
+          <vra:name type="corporate">Nihon Shintaku Ginkō</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="city">Kokubunji</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="prefecture">Toyko</vra:name>
+          <vra:name type="geographic" vocab="TGN" extent="nation">Japan</vra:name>
+        </vra:location>
+      </vra:locationSet>
+      <vra:materialSet>
+        <vra:display>mitsumata, abaca pulp, and other fibers</vra:display>
+        <vra:material type="medium">mitsumata</vra:material>
+        <vra:material type="medium">abaca pulp</vra:material>
+      </vra:materialSet>
+    </vra:work>
+  </cp:vraSection>
+</cp:caper>
