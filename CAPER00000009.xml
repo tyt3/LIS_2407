@@ -40,7 +40,7 @@
                 <mods:topic authority="lcsh">Funeral decorations</mods:topic>
             </mods:subject>
             <mods:identifier>CAPER00000009</mods:identifier>
-            </mods:mods>
+        </mods:mods>
     </cp:modsSection>
     
     <cp:dcSection>
@@ -61,12 +61,12 @@
                 </vra:date>
             </vra:dateSet>
             <vra:locationSet>
-                <vra:location>Franklin Institute, Philadelphia, United States</vra:display>
-                <vra:location type="formerRepository">
-                    <vra:name type="corporate">Franklin Institute</vra:name>
-                    <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Philadelphia</vra:name>
-                    <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">United States</vra:name>
-                </vra:location>
+                <vra:display>Franklin Institute, Philadelphia, United States</vra:display>
+                    <vra:location type="formerRepository">
+                        <vra:name type="corporate">Franklin Institute</vra:name>
+                        <vra:name type="geographic" vocab="TGN" refid="7005869" extent="city">Philadelphia</vra:name>
+                        <vra:name type="geographic" vocab="TGN" refid="7003321" extent="city">United States</vra:name>
+                    </vra:location>
             </vra:locationSet>  
             <vra:materialSet>
                 <vra:display>Pottery clay</vra:display>
