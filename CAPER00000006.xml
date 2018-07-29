@@ -66,7 +66,7 @@
             </vra:dateSet> 
             <vra:locationSet>
                 <vra:location>Museum of Religious Art of Fourvière, Lyon, France</vra:display>
-                <vra:location type="formerOwner">
+                <vra:location type="formerRepository">
                     <vra:name type="corporate">Museum of Religious Art of Fourvière</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="city">Lyon</vra:name>
                     <vra:name type="geographic" vocab="TGN" extent="nation">France</vra:name>
