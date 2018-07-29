@@ -54,9 +54,6 @@
         <mods:topic authority="lcsh">Automobiles</mods:topic>
       </mods:subject>
       <mods:subject>
-        <mods:topic authority="lcsh">Automobile theft</mods:topic>
-      </mods:subject>
-      <mods:subject>
         <mods:geographic authority="lcsh">United States</mods:geographic>
       </mods:subject>
       <mods:name authority="naf" type="personal" >
@@ -77,8 +74,7 @@
   
   <cp:dcSection>
     <dcterms:type>physical object</dcterms:type>
-    <dcterms:provenance>Stolen from Fred Rogers by an unknown agents in 1990.
-    </dcterms:provenance>
+    <dcterms:provenance>Stolen from Fred Rogers by an unknown agents in 1990.</dcterms:provenance>
   </cp:dcSection>
   
   <cp:vraSection>
