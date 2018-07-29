@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <cp:caper xmlns:cp="https://github.com/tyt3/LIS_2407"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:dc="http://purl.org/dc/elements/1.1/"
     xmlns:dcterms="http://purl.org/dc/terms/"
     xmlns:mods="http://www.loc.gov/mods/v3"
     xmlns:vra="http://www.vraweb.org/vracore4.htm"
-    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper-2018.xsd">
+    xsi:schemaLocation="https://github.com/tyt3/LIS_2407 https://raw.githubusercontent.com/tyt3/LIS_2407/master/caper.xsd">
 
   <cp:theftClass>fictional</cp:theftClass>
   <cp:theftType>looting</cp:theftType>
@@ -55,7 +55,11 @@
           <mods:namePart>Monet, Claude</mods:namePart>
           <mods:namePart type="date">1840-1926</mods:namePart>
         </mods:name>
+      </mods:subject>
+      <mods:subject>
         <mods:topic authority="lcsh">Impressionism (Art)</mods:topic>
+      </mods:subject>
+      <mods:subject>
         <mods:geographic authority="lcsh">San Giorgio Maggiore Island (Italy)</mods:geographic>
       </mods:subject>
       <mods:name authority="naf" type="corporate">
